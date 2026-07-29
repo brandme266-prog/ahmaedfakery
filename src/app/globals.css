@@ -226,7 +226,8 @@ a:hover {
     gap: 0.5rem !important;
   }
   .nav-right {
-    flex-direction: column !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
     gap: 0.5rem !important;
     width: 100% !important;
   }
