@@ -13,6 +13,15 @@ export const metadata: Metadata = {
     locale: 'ar_EG',
     type: 'website',
   },
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+    },
+  },
 }
 
 export default function RootLayout({
