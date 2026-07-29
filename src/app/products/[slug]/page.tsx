@@ -3,11 +3,6 @@ import Link from 'next/link'
 import { productsData } from '../../../data/products'
 import { notFound } from 'next/navigation'
 
-export async function generateStaticParams() {
-  return productsData.map((product) => ({
-    slug: product.slug,
-  }))
-}
 
 export default function ProductPage({ params }: { params: { slug: string } }) {
   const product = productsData.find((p) => p.slug === params.slug)

@@ -1,7 +1,13 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import './globals.css'
 import Image from 'next/image'
 import Link from 'next/link'
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+}
 
 export const metadata: Metadata = {
   title: 'المهندس احمد فكري | Ahmed Fekry - فكري جروب لصناعة ماكينات الرخام والجرانيت',
