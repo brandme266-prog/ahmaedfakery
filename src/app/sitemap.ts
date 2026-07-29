@@ -3,8 +3,8 @@ import { blogPosts } from '@/data/blog'
 import { productsData } from '@/data/products'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  // Using the cloudflare pages domain, this can be updated to the custom domain later (e.g. fekrycompany.com)
-  const baseUrl = 'https://ahmaedfakery1.pages.dev'
+  // Using the official custom domain
+  const baseUrl = 'https://ahfekry.com'
 
   // Dynamic Blog URLs
   const blogUrls = blogPosts.map((post) => ({
