@@ -121,11 +121,22 @@ export default function Home() {
                 <p>المصنع الأول: عرب أبو ساعد</p>
                 <p>المصنع الثاني: المنصورة</p>
                 <p>الإدارة: شق التعبان – أبراج الأمل برج ٩٩</p>
+                <a 
+                  href="https://share.google/QF31eqhLF6YvOiXWJ" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  style={{ display: 'inline-block', marginTop: '0.8rem', color: 'var(--accent-yellow)', textDecoration: 'underline' }}
+                >
+                  📍 موقعنا على خريطة جوجل
+                </a>
               </div>
             </div>
 
-            <div style={{ marginTop: '3rem' }}>
+            <div style={{ marginTop: '3rem', display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
               <a href="mailto:ic.marblemachines@hotmail.com" className="btn-primary">راسلنا عبر البريد</a>
+              <a href="https://share.google/QF31eqhLF6YvOiXWJ" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ background: 'transparent', color: 'var(--accent-yellow)', border: '1px solid var(--accent-yellow)' }}>
+                📍 الاتجاهات على الخريطة
+              </a>
             </div>
           </div>
         </div>
