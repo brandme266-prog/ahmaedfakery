@@ -39,7 +39,7 @@ export default function RootLayout({
             {/* Logo & Navigation Links (Right side) */}
             <div style={{ display: 'flex', alignItems: 'center', gap: '3rem' }}>
               <Link href="/" style={{ display: 'flex', alignItems: 'center' }}>
-                <Image src="/img/logo.png" alt="فكري جروب" width={70} height={70} style={{ objectFit: 'cover', borderRadius: '50%', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }} priority />
+                <Image src="/img/logo.png" alt="فكري جروب" width={180} height={60} style={{ objectFit: 'contain' }} priority />
               </Link>
               
               <div style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
