@@ -58,9 +58,9 @@ export default function Home() {
             <div style={{ position: 'relative', width: '250px', height: '250px', borderRadius: '50%', overflow: 'hidden', border: '4px solid var(--accent-yellow)', marginBottom: '1rem' }}>
               <Image src="/img/500310758_548201025008210_6078741677372742104_n.jpg" alt="المهندس احمد فكري" fill style={{ objectFit: 'cover' }} />
             </div>
-            <h2 style={{ fontSize: '2.5rem', color: 'var(--accent-cyan)' }}>عن المهندس احمد فكري</h2>
+            <h2 style={{ fontSize: '2.5rem', color: 'var(--accent-cyan)' }}>عن المهندس احمد فكري (Ahmed Fekry)</h2>
             <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem', maxWidth: '800px', lineHeight: '1.8' }}>
-              تُعدّ "فكري جروب" بقيادة <strong>المهندس احمد فكري</strong> قلعة صناعية شامخة في مجال المعدات الثقيلة، وخاصة في ابتكار وتصنيع ماكينات نشر وتلميع الرخام والجرانيت. بفضل خبرة هندسية تمتد لعقدين من الزمان، نجحنا في ترك بصمة لا تُمحى في كبرى مصانع الحجر الطبيعي في مصر والوطن العربي.
+              تُعدّ "فكري جروب" (Fekry Group) بقيادة <strong>المهندس احمد فكري (Eng. Ahmed Fekry)</strong> قلعة صناعية شامخة في مجال المعدات الثقيلة، وخاصة في ابتكار وتصنيع ماكينات نشر وتلميع الرخام والجرانيت. بفضل خبرة هندسية تمتد لعقدين من الزمان، نجحنا في ترك بصمة لا تُمحى في كبرى مصانع الحجر الطبيعي في مصر والوطن العربي.
             </p>
             <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem', maxWidth: '800px', lineHeight: '1.8' }}>
               نحن لا نصنع مجرد ماكينات، بل نبني شراكات نجاح تدوم طويلاً. تحت إشراف المهندس أحمد فكري، كل معدة تخرج من مصانعنا تحمل ختم الجودة والأمان المطلق، مما يقلل من تكلفة الاستيراد ويدعم الاقتصاد الوطني بأعلى كفاءة.
@@ -133,7 +133,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer style={{ background: 'var(--bg-secondary)', padding: '2rem 0', textAlign: 'center', borderTop: '1px solid var(--border-color)' }}>
-        <p style={{ color: 'var(--text-secondary)' }}>© 2026 فكري جروب لصناعة ماكينات الرخام والجرانيت. جميع الحقوق محفوظة.</p>
+        <p style={{ color: 'var(--text-secondary)' }}>© 2026 فكري جروب لصناعة ماكينات الرخام والجرانيت (Fekry Group - Ahmed Fekry). جميع الحقوق محفوظة.</p>
       </footer>
     </>
   )
