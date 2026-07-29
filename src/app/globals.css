@@ -121,24 +121,46 @@ a:hover {
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border-color);
-  padding: 1rem var(--space-6);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.04);
+}
+
+.navbar-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: all 0.3s ease;
+  padding: 1rem 0;
+  width: 100%;
 }
 
 .nav-link {
   font-weight: 600;
   font-size: 1.1rem;
-  padding: 0.5rem 1rem;
-  border-radius: var(--border-radius-md);
+  padding: 0.5rem 0.5rem;
   transition: all 0.3s ease;
+  position: relative;
+  color: var(--text-primary);
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 3px;
+  background-color: var(--accent-yellow);
+  transition: width 0.3s ease;
+  border-radius: 2px;
+}
+
+.nav-link:hover::after {
+  width: 100%;
 }
 
 .nav-link:hover {
-  background: rgba(15, 23, 42, 0.05);
-  color: var(--accent-cyan);
+  color: var(--accent-yellow);
 }
 
 /* Floating WhatsApp Button */
