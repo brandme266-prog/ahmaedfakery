@@ -11,18 +11,18 @@ export default function Home() {
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4rem', alignItems: 'center' }}>
             
             {/* Right Text Content */}
-            <div className="fade-in" style={{ flex: '1 1 400px' }}>
+            <div className="fade-in" style={{ flex: '1 1 300px', textAlign: 'center' }}>
               <span style={{ display: 'inline-block', padding: '0.5rem 1rem', background: 'rgba(217, 119, 6, 0.1)', color: 'var(--accent-yellow)', borderRadius: 'var(--border-radius-lg)', fontWeight: '600', marginBottom: '1.5rem', fontSize: '0.95rem' }}>
                 🏆 أكثر من 20 عاماً من الثقة والخبرة
               </span>
-              <h1 style={{ fontSize: '3.2rem', marginBottom: '1.5rem', color: 'var(--text-primary)', lineHeight: '1.3' }}>
+              <h1 style={{ fontSize: 'clamp(2rem, 5vw, 3.2rem)', marginBottom: '1.5rem', color: 'var(--text-primary)', lineHeight: '1.3' }}>
                 المهندس احمد فكري <br />
                 <span style={{ color: 'var(--accent-yellow)' }}>أسطورة الماكينات الثقيلة</span>
               </h1>
-              <p style={{ fontSize: '1.15rem', marginBottom: '2.5rem', color: 'var(--text-secondary)', lineHeight: '1.8', maxWidth: '600px' }}>
+              <p style={{ fontSize: '1.15rem', marginBottom: '2.5rem', color: 'var(--text-secondary)', lineHeight: '1.8', maxWidth: '600px', margin: '0 auto 2.5rem' }}>
                 تحت قيادة المهندس أحمد فكري، نعيد تعريف معايير القوة والصلابة في صناعة ماكينات الرخام والجرانيت. نفخر بتقديم معدات مصرية تتحدى الزمن وتضاهي أعتى التكنولوجيا الأوروبية.
               </p>
-              <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+              <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center' }}>
                 <Link href="#products" className="btn-primary" style={{ padding: '0.8rem 2rem', fontSize: '1.1rem' }}>
                   تصفح منتجاتنا
                 </Link>
@@ -33,7 +33,7 @@ export default function Home() {
             </div>
 
             {/* Left Image Graphic */}
-            <div className="fade-in" style={{ flex: '1 1 400px', position: 'relative', animationDelay: '0.2s', width: '100%', minHeight: '500px', background: 'var(--bg-secondary)', borderRadius: 'var(--border-radius-lg)', boxShadow: 'var(--shadow-glow)', display: 'flex', overflow: 'hidden', border: '1px solid var(--border-color)' }}>
+            <div className="fade-in" style={{ flex: '1 1 300px', position: 'relative', animationDelay: '0.2s', width: '100%', minHeight: 'clamp(300px, 40vw, 500px)', background: 'var(--bg-secondary)', borderRadius: 'var(--border-radius-lg)', boxShadow: 'var(--shadow-glow)', display: 'flex', overflow: 'hidden', border: '1px solid var(--border-color)' }}>
               <Image src="/img/WhatsApp-Image-2025-10-20-at-10.58.32-AM.jpeg" alt="ماكينات الرخام والجرانيت" fill style={{ objectFit: 'cover' }} priority />
               <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top right, rgba(0,0,0,0.1), transparent)' }} />
             </div>
@@ -55,10 +55,10 @@ export default function Home() {
       <section id="about" className="section" style={{ background: 'var(--bg-primary)' }}>
         <div className="container">
           <div className="glass-panel" style={{ padding: '3rem', display: 'flex', flexDirection: 'column', gap: '1.5rem', alignItems: 'center', textAlign: 'center' }}>
-            <div style={{ position: 'relative', width: '250px', height: '250px', borderRadius: '50%', overflow: 'hidden', border: '4px solid var(--accent-yellow)', marginBottom: '1rem' }}>
+            <div style={{ position: 'relative', width: 'clamp(150px, 30vw, 250px)', height: 'clamp(150px, 30vw, 250px)', borderRadius: '50%', overflow: 'hidden', border: '4px solid var(--accent-yellow)', marginBottom: '1rem' }}>
               <Image src="/img/500310758_548201025008210_6078741677372742104_n.jpg" alt="المهندس احمد فكري" fill style={{ objectFit: 'cover' }} />
             </div>
-            <h2 style={{ fontSize: '2.5rem', color: 'var(--accent-cyan)' }}>عن المهندس احمد فكري (Ahmed Fekry)</h2>
+            <h2 style={{ fontSize: 'clamp(1.8rem, 4vw, 2.5rem)', color: 'var(--accent-cyan)' }}>عن المهندس احمد فكري (Ahmed Fekry)</h2>
             <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem', maxWidth: '800px', lineHeight: '1.8' }}>
               تُعدّ "فكري جروب" (Fekry Group) بقيادة <strong>المهندس احمد فكري (Eng. Ahmed Fekry)</strong> قلعة صناعية شامخة في مجال المعدات الثقيلة، وخاصة في ابتكار وتصنيع ماكينات نشر وتلميع الرخام والجرانيت. بفضل خبرة هندسية تمتد لعقدين من الزمان، نجحنا في ترك بصمة لا تُمحى في كبرى مصانع الحجر الطبيعي في مصر والوطن العربي.
             </p>
@@ -78,9 +78,9 @@ export default function Home() {
       {/* Services/Products Section */}
       <section id="products" className="section" style={{ background: 'var(--bg-secondary)' }}>
         <div className="container">
-          <h2 style={{ textAlign: 'center', fontSize: '2.5rem', marginBottom: '3rem' }}>منتجاتنا المتميزة</h2>
+          <h2 style={{ textAlign: 'center', fontSize: 'clamp(1.8rem, 4vw, 2.5rem)', marginBottom: '3rem' }}>منتجاتنا المتميزة</h2>
           
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>
             
             {productsData.map((product) => (
               <Link href={`/products/${product.slug}`} key={product.slug} style={{ display: 'block' }}>
@@ -101,8 +101,8 @@ export default function Home() {
       {/* Contact Section */}
       <section id="contact" className="section" style={{ background: 'var(--bg-primary)' }}>
         <div className="container">
-          <div className="glass-panel" style={{ padding: '4rem 2rem', textAlign: 'center' }}>
-            <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>تواصل مع فكري جروب</h2>
+          <div className="glass-panel" style={{ padding: 'clamp(2rem, 5vw, 4rem) clamp(1rem, 3vw, 2rem)', textAlign: 'center' }}>
+            <h2 style={{ fontSize: 'clamp(1.8rem, 4vw, 2.5rem)', marginBottom: '1rem' }}>تواصل مع فكري جروب</h2>
             <p style={{ color: 'var(--text-secondary)', marginBottom: '3rem', fontSize: '1.1rem' }}>نحن شركاء في نجاح مصنعك. اتصل بنا الآن للحصول على استشارة أو عرض سعر.</p>
             
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem', textAlign: 'right' }}>
