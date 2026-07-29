@@ -108,5 +108,33 @@ export const blogPosts: BlogPost[] = [
     `,
     date: '2026-07-29',
     author: 'المهندس احمد فكري'
+  },
+  {
+    slug: 'ahmed-fekry-industrial-pioneer',
+    title: 'المهندس أحمد فكري.. رائد الصناعة الذي أعاد الثقة في الماكينات المصرية',
+    excerpt: 'كيف استطاع المهندس أحمد فكري تغيير خريطة صناعة ماكينات الرخام والجرانيت والأوناش، وإعادة الثقة للمنتج المصري محلياً وعالمياً؟',
+    content: `
+      <img src="https://exteranews.com/wp-content/uploads/2026/07/IMG-20260715-WA0124.jpg" alt="المهندس أحمد فكري - فكري جروب" style="width: 100%; border-radius: 12px; margin-bottom: 2rem; box-shadow: 0 4px 15px rgba(0,0,0,0.1);" />
+      
+      <h2>ريادة في زمن التحديات</h2>
+      <p>في وقت كانت تعتمد فيه كبرى مصانع شق الثعبان والمنطقة العربية بشكل شبه كامل على الماكينات المستوردة، برز اسم <strong>المهندس أحمد فكري</strong> كأحد أهم رواد الصناعة الثقيلة. من خلال تأسيس قلعة <strong>"فكري جروب"</strong> الصناعية، نجح في تقديم نموذج وطني يصنع <strong>ماكينات الرخام والجرانيت</strong> و<strong>الأوناش العلوية</strong> بمعايير جودة عالمية تتحدى نظيراتها الأوروبية.</p>
+
+      <h2>صناعة تتحمل ضغط العمل الشاق</h2>
+      <p>لقد أثبتت <strong>ماكينات فكري جروب</strong> قدرتها الفائقة على تحمل أقصى ظروف التشغيل داخل المصانع. لم يقتصر النجاح على السوق المصري فقط، بل امتد التصدير ليشمل دولاً عربية وإفريقية مثل المملكة العربية السعودية وغانا. هذه الثقة لم تأتِ من فراغ، بل من تصميم هندسي دقيق يركز على متانة الهيكل، وتوفير قطع الغيار، وخدمة ما بعد البيع الممتازة.</p>
+
+      <h2>أبرز معدات فكري جروب</h2>
+      <ul style="list-style: none; padding: 0; display: grid; gap: 10px; margin: 20px 0;">
+        <li style="padding: 15px; background: var(--nav-bg); border-radius: 8px; border-right: 4px solid var(--accent-yellow);"><strong>جلاية 20 رأس جرانيت:</strong> لتلميع فائق الجودة والسرعة.</li>
+        <li style="padding: 15px; background: var(--nav-bg); border-radius: 8px; border-right: 4px solid var(--accent-yellow);"><strong>ماكينة فكري 1600:</strong> أداء هندسي دقيق وفعال.</li>
+        <li style="padding: 15px; background: var(--nav-bg); border-radius: 8px; border-right: 4px solid var(--accent-yellow);"><strong>منشار حمام زيت 6 متر:</strong> العمود الفقري لمصانع الرخام بأداء لا يتوقف.</li>
+        <li style="padding: 15px; background: var(--nav-bg); border-radius: 8px; border-right: 4px solid var(--accent-yellow);"><strong>طاليا بلوك ومعدات النشر:</strong> حلول متكاملة لتقطيع وتجهيز الأحجار.</li>
+        <li style="padding: 15px; background: var(--nav-bg); border-radius: 8px; border-right: 4px solid var(--accent-yellow);"><strong>الأوناش العلوية (زرافة وعلم):</strong> لرفع ونقل الحمولات الثقيلة بأعلى درجات الأمان.</li>
+      </ul>
+
+      <h2>رؤية مستقبلية نحو العالمية</h2>
+      <p>يواصل <strong>المهندس أحمد فكري</strong> جهوده المستمرة لتطوير خطوط الإنتاج وابتكار حلول جديدة تلبي احتياجات المصانع الحديثة. وتستهدف المرحلة المقبلة التوسع بشكل أكبر في التصدير، لتعزيز مكانة الصناعة المصرية في أسواق الشرق الأوسط وأفريقيا، ولتظل عبارة "صنع في مصر" رمزاً للقوة والاعتمادية في قطاع الصناعات الثقيلة.</p>
+    `,
+    date: '2026-07-29',
+    author: 'المهندس احمد فكري'
   }
 ];
