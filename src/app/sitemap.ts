@@ -2,6 +2,8 @@ import { MetadataRoute } from 'next'
 import { blogPosts } from '@/data/blog'
 import { productsData } from '@/data/products'
 
+export const dynamic = 'force-static'
+
 export default function sitemap(): MetadataRoute.Sitemap {
   // Using the official custom domain
   const baseUrl = 'https://ahfekry.com'

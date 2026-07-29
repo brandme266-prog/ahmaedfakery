@@ -2,10 +2,19 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { productsData } from '../../../data/products'
 import { notFound } from 'next/navigation'
+export async function generateStaticParams() {
+  return productsData.map((product) => ({
+    slug: product.slug,
+  }))
+}
 
+type Props = {
+  params: Promise<{ slug: string }>
+}
 
-export default function ProductPage({ params }: { params: { slug: string } }) {
-  const product = productsData.find((p) => p.slug === params.slug)
+export default async function ProductPage({ params }: Props) {
+  const { slug } = await params
+  const product = productsData.find((p) => p.slug === slug)
 
   if (!product) {
     notFound()
