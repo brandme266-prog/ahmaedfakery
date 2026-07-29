@@ -13,6 +13,11 @@ export const metadata: Metadata = {
     locale: 'ar_EG',
     type: 'website',
   },
+  icons: {
+    icon: '/img/logo.png',
+    shortcut: '/img/logo.png',
+    apple: '/img/logo.png',
+  },
 }
 
 export default function RootLayout({
