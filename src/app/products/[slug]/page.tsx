@@ -2,12 +2,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { productsData } from '../../../data/products'
 import { notFound } from 'next/navigation'
-export async function generateStaticParams() {
-  return productsData.map((product) => ({
-    slug: product.slug,
-  }))
-}
 
+export const runtime = 'edge'
 type Props = {
   params: Promise<{ slug: string }>
 }

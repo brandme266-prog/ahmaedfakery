@@ -3,6 +3,8 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { Metadata } from 'next'
 
+export const runtime = 'edge'
+
 interface Props {
   params: Promise<{ slug: string }>
 }
@@ -26,12 +28,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       authors: [post.author],
     },
   }
-}
-
-export async function generateStaticParams() {
-  return blogPosts.map((post) => ({
-    slug: post.slug,
-  }))
 }
 
 export default async function BlogPost({ params }: Props) {
