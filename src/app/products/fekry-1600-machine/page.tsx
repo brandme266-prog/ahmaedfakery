@@ -4,7 +4,7 @@ import { productsData } from '../../../data/products'
 import { notFound } from 'next/navigation'
 
 export default function ProductPage() {
-  const product = productsData.find((p) => p.slug === 'polishing-machine-10-heads')
+  const product = productsData.find((p) => p.slug === 'fekry-1600-machine')
   
   if (!product) {
     notFound()

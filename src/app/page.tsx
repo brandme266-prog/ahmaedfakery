@@ -85,9 +85,9 @@ export default function Home() {
             {productsData.map((product) => (
               <div key={product.slug} className="glass-panel product-card" style={{ padding: '1.5rem', transition: 'transform 0.3s ease', display: 'flex', flexDirection: 'column', height: '100%' }}>
                 <Link href={`/products/${product.slug}`} style={{ display: 'block', flexGrow: 1 }}>
-                  <div style={{ position: 'relative', height: '250px', borderRadius: '8px', overflow: 'hidden', marginBottom: '1rem', background: '#e2e8f0' }}>
-                    <Image src={product.image} alt={product.title} fill style={{ objectFit: 'cover' }} />
-                  </div>
+                  <div style={{ position: 'relative', height: '250px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', overflow: 'hidden' }}>
+                  <Image src={product.image || (product.images ? product.images[0] : '')} alt={product.title} fill style={{ objectFit: 'cover' }} />
+                </div>
                   <h3 style={{ fontSize: '1.3rem', color: 'var(--accent-yellow)', marginBottom: '0.5rem' }}>{product.title}</h3>
                   <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>{product.shortDescription}</p>
                 </Link>

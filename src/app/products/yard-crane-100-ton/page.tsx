@@ -17,18 +17,30 @@ export default function ProductPage() {
       </Link>
       
       <div className="glass-panel" style={{ padding: '2rem', display: 'grid', gap: '2rem', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
-        <div style={{ position: 'relative', height: '400px', borderRadius: '12px', overflow: 'hidden', boxShadow: 'var(--shadow-glow)' }}>
-          <Image src={product.image} alt={product.title} fill style={{ objectFit: 'cover' }} priority />
-        </div>
         
+        {product.images && product.images.length > 0 ? (
+          <div style={{ display: 'flex', overflowX: 'auto', scrollSnapType: 'x mandatory', gap: '1rem', width: '100%', height: '400px' }}>
+            {product.images.map((img, idx) => (
+              <div key={idx} style={{ scrollSnapAlign: 'start', flex: '0 0 100%', height: '100%', position: 'relative', borderRadius: '12px', overflow: 'hidden', boxShadow: 'var(--shadow-glow)' }}>
+                <Image src={img} alt={product.title} fill style={{ objectFit: 'cover' }} priority={idx === 0} />
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div style={{ position: 'relative', height: '400px', borderRadius: '12px', overflow: 'hidden', boxShadow: 'var(--shadow-glow)' }}>
+            <Image src={product.image || ''} alt={product.title} fill style={{ objectFit: 'cover' }} priority />
+          </div>
+        )}
+
         <div>
           <h1 style={{ fontSize: '2rem', color: 'var(--accent-orange)' }}>{product.title}</h1>
           <p style={{ fontSize: '1.2rem', color: 'var(--text-secondary)', marginBottom: '1.5rem', fontWeight: 600 }}>
             {product.shortDescription}
           </p>
-          <p style={{ color: 'var(--text-primary)', marginBottom: '2rem', lineHeight: '1.8' }}>
-            {product.fullDescription}
-          </p>
+          <div 
+            style={{ color: 'var(--text-primary)', marginBottom: '2rem', lineHeight: '1.8' }}
+            dangerouslySetInnerHTML={{ __html: product.fullDescription }}
+          />
           
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
             <h3 style={{ color: 'var(--accent-cyan)' }}>المواصفات الفنية:</h3>
