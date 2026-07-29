@@ -35,7 +35,7 @@ export default function RootLayout({
     <html lang="ar" dir="rtl">
       <body>
         <nav className="navbar">
-          <div className="container navbar-inner">
+          <div className="navbar-inner">
             {/* Logo & Navigation Links (Right side) */}
             <div className="nav-right" style={{ display: 'flex', alignItems: 'center', gap: '3rem' }}>
               <Link href="/" style={{ display: 'flex', alignItems: 'center' }}>
