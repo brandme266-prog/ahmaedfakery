@@ -114,24 +114,28 @@ a:hover {
   background-color: var(--accent-orange);
 }
 
-/* Premium Navbar */
+/* Premium Floating Navbar */
 .navbar {
   position: sticky;
-  top: 0;
+  top: 1rem;
   z-index: 1000;
-  background: var(--bg-card);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border-bottom: 1px solid var(--border-color);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 100px;
+  margin: 1rem auto;
+  width: 95%;
+  max-width: 1200px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.04);
 }
 
 .navbar-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0;
+  padding: 0.75rem 2rem;
   width: 100%;
 }
 
@@ -213,13 +217,19 @@ a:hover {
   .section {
     padding: var(--space-8) 0 !important;
   }
+  .navbar {
+    top: 0.5rem;
+    width: 96%;
+    border-radius: 20px;
+    margin: 0.5rem auto;
+  }
   .navbar-inner {
     flex-direction: column !important;
     gap: 1rem !important;
-    padding: 1rem !important;
+    padding: 1.5rem !important;
   }
   .navbar-inner > div {
-    gap: 1rem !important;
+    gap: 1.5rem !important;
     justify-content: center !important;
     flex-wrap: wrap !important;
   }
