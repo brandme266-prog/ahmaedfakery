@@ -27,7 +27,7 @@ export default function Home() {
                 <Link href="#products" className="btn-primary" style={{ padding: '0.8rem 2rem', fontSize: '1.1rem' }}>
                   تصفح منتجاتنا
                 </Link>
-                <Link href="#about" className="btn-primary" style={{ background: 'transparent', color: 'var(--text-primary)', border: '1px solid var(--border-color)', padding: '0.8rem 2rem', boxShadow: 'none', fontSize: '1.1rem' }}>
+                <Link href="/about" className="btn-primary" style={{ background: 'transparent', color: 'var(--text-primary)', border: '1px solid var(--border-color)', padding: '0.8rem 2rem', boxShadow: 'none', fontSize: '1.1rem' }}>
                   تعرف علينا
                 </Link>
               </div>
