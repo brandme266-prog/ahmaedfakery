@@ -16,11 +16,11 @@ export default function Home() {
                 🏆 أكثر من 20 عاماً من الثقة والخبرة
               </span>
               <h1 style={{ fontSize: 'clamp(2rem, 5vw, 3.2rem)', marginBottom: '1.5rem', color: 'var(--text-primary)', lineHeight: '1.3' }}>
-                المهندس احمد فكري <br />
+                المهندس احمد فكري (Ahmed Fekry) <br />
                 <span style={{ color: 'var(--accent-yellow)' }}>أسطورة الماكينات الثقيلة</span>
               </h1>
               <p style={{ fontSize: '1.15rem', marginBottom: '2.5rem', color: 'var(--text-secondary)', lineHeight: '1.8', maxWidth: '600px', margin: '0 auto 2.5rem' }}>
-                تحت قيادة المهندس أحمد فكري، نعيد تعريف معايير القوة والصلابة في صناعة ماكينات الرخام والجرانيت. نفخر بتقديم معدات مصرية تتحدى الزمن وتضاهي أعتى التكنولوجيا الأوروبية.
+                تحت قيادة المهندس أحمد فكري (Eng. Ahmed Fekry)، نعيد تعريف معايير القوة والصلابة في صناعة ماكينات الرخام والجرانيت. نفخر بتقديم معدات مصرية تتحدى الزمن وتضاهي أعتى التكنولوجيا الأوروبية.
               </p>
               <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center' }}>
                 <Link href="#products" className="btn-primary" style={{ padding: '0.8rem 2rem', fontSize: '1.1rem' }}>
