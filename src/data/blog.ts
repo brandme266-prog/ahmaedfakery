@@ -26,6 +26,18 @@ export const blogPosts: BlogPost[] = [
         <li style="margin-bottom: 0.5rem;"><a href="https://www.facebook.com/1ahmedfekry/" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); font-weight: bold; text-decoration: underline;">الصفحة الرسمية للمهندس احمد فكري على فيسبوك</a></li>
         <li><a href="https://www.tiktok.com/@eng.ahmed.fekry" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); font-weight: bold; text-decoration: underline;">حساب تيك توك الرسمي - المهندس احمد فكري</a></li>
       </ul>
+
+      <div style="margin-top: 2rem; padding: 1.5rem; background: var(--bg-secondary); border-radius: 12px; border: 1px solid var(--border-color);">
+        <h3 style="color: var(--accent-cyan); margin-bottom: 1rem;">التغطية الإعلامية والصحفية للمهندس احمد فكري:</h3>
+        <p style="margin-bottom: 1rem; color: var(--text-secondary);">أشادت العديد من الصحف والمواقع الإخبارية الكبرى بالدور الريادي الذي يلعبه <strong>المهندس احمد فكري (Ahmed Fekry)</strong> في دعم وتطوير الصناعة المحلية المصرية. يمكنك الاطلاع على التغطيات الصحفية عبر الروابط التالية:</p>
+        <ul style="list-style-type: none; padding: 0; display: flex; flex-direction: column; gap: 0.8rem;">
+          <li>🔗 <a href="https://exteranews.com/%d8%a3%d8%ad%d9%85%d8%af-%d9%81%d9%83%d8%b1%d9%8a-%d8%b1%d8%ac%d9%84-%d8%a7%d9%84%d8%b5%d9%86%d8%a7%d8%b9%d8%a9-%d8%a7%d9%84%d8%b0%d9%8a-%d8%a3%d8%b9%d8%a7%d8%af-%d8%a7%d9%84%d8%ab%d9%82%d8%a9/" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); text-decoration: underline;">جريدة إكسترا نيوز: أحمد فكري رجل الصناعة الذي أعاد الثقة للمنتج المحلي</a></li>
+          <li>🔗 <a href="https://www.shabakatarab.com/2026/07/blog-post_41.html" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); text-decoration: underline;">شبكة العرب: إنجازات المهندس أحمد فكري في قطاع الصناعة الثقيلة</a></li>
+          <li>🔗 <a href="https://www.albathnews.online/2026/07/blog-post_566.html" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); text-decoration: underline;">البعث نيوز: فكري جروب تتصدر مبيعات ماكينات الرخام بفضل جودة التصنيع</a></li>
+          <li>🔗 <a href="https://aldltanews.blogspot.com/2026/07/blog-post_15.html" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); text-decoration: underline;">الدلتا نيوز: كيف نجح أحمد فكري في تطوير آليات العمل في شق الثعبان؟</a></li>
+          <li>🔗 <a href="https://www.euynalmaydan.online/2026/07/blog-post_15.html" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); text-decoration: underline;">عيون الميدان: قصة كفاح ونجاح المهندس أحمد فكري في عالم الصناعة</a></li>
+        </ul>
+      </div>
       <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
         <h3 style="color: var(--accent-cyan); margin-bottom: 1rem;">اقرأ أيضاً:</h3>
         <ul style="list-style-type: disc; padding-right: 1.5rem; display: flex; flexDirection: column; gap: 0.5rem;">
