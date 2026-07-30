@@ -24,13 +24,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: `${post.title} - المهندس احمد فكري | Ahmed Fekry`,
-    description: post.excerpt,
+    description: `${post.excerpt} - مقال تقني من المهندس احمد فكري (Ahmed Fekry) رائد صناعة ماكينات الرخام والجرانيت في مصر.`,
+    keywords: `المهندس احمد فكري, Ahmed Fekry, فكري جروب, ماكينات الرخام, ${post.title}`,
     openGraph: {
-      title: post.title,
-      description: post.excerpt,
+      title: `${post.title} - المهندس احمد فكري | Ahmed Fekry`,
+      description: `${post.excerpt} - مقال تقني من المهندس احمد فكري (Ahmed Fekry) رائد صناعة ماكينات الرخام والجرانيت.`,
       type: 'article',
       publishedTime: post.date,
-      authors: [post.author],
+      authors: ['المهندس احمد فكري', 'Ahmed Fekry', post.author],
     },
   }
 }
