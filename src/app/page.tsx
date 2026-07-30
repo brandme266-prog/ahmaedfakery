@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { productsData } from '../data/products'
+import { blogPosts } from '../data/blog'
 
 export default function Home() {
   return (
@@ -107,8 +108,36 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Latest Blog Posts Section */}
+      <section id="latest-posts" className="section" style={{ background: 'var(--bg-primary)' }}>
+        <div className="container">
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '3rem', flexWrap: 'wrap', gap: '1rem' }}>
+            <h2 style={{ fontSize: 'clamp(1.8rem, 4vw, 2.5rem)', margin: 0 }}>أحدث المقالات (لتصدر البحث)</h2>
+            <Link href="/blog" className="btn-primary" style={{ background: 'transparent', color: 'var(--accent-yellow)', border: '1px solid var(--accent-yellow)', boxShadow: 'none' }}>
+              عرض كل المقالات
+            </Link>
+          </div>
+          
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
+            {blogPosts.slice(0, 3).map((post) => (
+              <div key={post.slug} className="glass-panel" style={{ padding: '1.5rem', display: 'flex', flexDirection: 'column', height: '100%', transition: 'transform 0.3s ease' }}>
+                <h3 style={{ fontSize: '1.3rem', color: 'var(--text-primary)', marginBottom: '1rem', lineHeight: '1.4' }}>
+                  {post.title}
+                </h3>
+                <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem', lineHeight: '1.6', flexGrow: 1 }}>
+                  {post.excerpt}
+                </p>
+                <Link href={`/blog/${post.slug}`} className="btn-primary" style={{ width: '100%', padding: '0.6rem', fontSize: '1rem' }}>
+                  اقرأ المقال كامل
+                </Link>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
-      <section id="contact" className="section" style={{ background: 'var(--bg-primary)' }}>
+      <section id="contact" className="section" style={{ background: 'var(--bg-secondary)' }}>
         <div className="container">
           <div className="glass-panel" style={{ padding: 'clamp(2rem, 5vw, 4rem) clamp(1rem, 3vw, 2rem)', textAlign: 'center' }}>
             <h2 style={{ fontSize: 'clamp(1.8rem, 4vw, 2.5rem)', marginBottom: '1rem' }}>تواصل مع فكري جروب</h2>
