@@ -26,6 +26,13 @@ export const blogPosts: BlogPost[] = [
         <li style="margin-bottom: 0.5rem;"><a href="https://www.facebook.com/1ahmedfekry/" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); font-weight: bold; text-decoration: underline;">الصفحة الرسمية للمهندس احمد فكري على فيسبوك</a></li>
         <li><a href="https://www.tiktok.com/@eng.ahmed.fekry" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); font-weight: bold; text-decoration: underline;">حساب تيك توك الرسمي - المهندس احمد فكري</a></li>
       </ul>
+      <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+        <h3 style="color: var(--accent-cyan); margin-bottom: 1rem;">اقرأ أيضاً:</h3>
+        <ul style="list-style-type: disc; padding-right: 1.5rem; display: flex; flexDirection: column; gap: 0.5rem;">
+          <li><a href="/blog/المهندس-احمد-فكري-رائد-الصناعة" style="color: var(--accent-yellow); text-decoration: underline;">المهندس أحمد فكري: رائد الصناعة ومطور الماكينات المصرية</a></li>
+          <li><a href="/blog/افضل-ماكينات-الرخام-والجرانيت" style="color: var(--accent-yellow); text-decoration: underline;">الدليل الشامل لأفضل ماكينات الرخام والجرانيت في مصر</a></li>
+        </ul>
+      </div>
     `,
     date: '2026-08-01',
     author: 'إدارة الموقع'
@@ -58,6 +65,13 @@ export const blogPosts: BlogPost[] = [
 
       <h2>لماذا تعتبر معدات المهندس أحمد فكري الخيار الأمثل؟</h2>
       <p>من ناحية أخرى، يعتبر الاستثمار في شراء معدات <strong>المهندس أحمد فكري</strong> استثماراً مضموناً. بالتالي، نحن نضمن لك توفر <strong>قطع الغيار</strong> الأصلية بشكل دائم، وسرعة فائقة في تلبية طلبات الصيانة. في الختام، نحن نصنع لك ماكينة تعيش وتعمل بكفاءة في أصعب الظروف.</p>
+      <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+        <h3 style="color: var(--accent-cyan); margin-bottom: 1rem;">اقرأ أيضاً:</h3>
+        <ul style="list-style-type: disc; padding-right: 1.5rem; display: flex; flexDirection: column; gap: 0.5rem;">
+          <li><a href="/blog/اسعار-ماكينات-الرخام-في-مصر" style="color: var(--accent-yellow); text-decoration: underline;">مقارنة أسعار ماكينات الرخام والجرانيت في مصر</a></li>
+          <li><a href="/blog/منشار-حمام-الزيت-في-شق-الثعبان" style="color: var(--accent-yellow); text-decoration: underline;">لماذا يكتسح "منشار حمام الزيت" مصانع شق الثعبان؟</a></li>
+        </ul>
+      </div>
     `,
     date: '2026-07-15',
     author: 'المهندس أحمد فكري'
@@ -93,6 +107,12 @@ export const blogPosts: BlogPost[] = [
 
       <h2>الخلاصة: أمان ومرونة بأسعار ممتازة وتنافسية</h2>
       <p>ختاماً، نحن في فكري جروب نضمن لك سلامة العمال الكاملة وسرعة الإنتاج الفائقة بفضل <strong>الأوناش العلوية</strong> المعتمدة التي توفر عليك الوقت والجهد وتكاليف الاستيراد باهظة الثمن.</p>
+      <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+        <h3 style="color: var(--accent-cyan); margin-bottom: 1rem;">اقرأ أيضاً:</h3>
+        <ul style="list-style-type: disc; padding-right: 1.5rem; display: flex; flexDirection: column; gap: 0.5rem;">
+          <li><a href="/blog/دليل-صيانة-ماكينات-الرخام" style="color: var(--accent-yellow); text-decoration: underline;">دليل صيانة ماكينات الرخام والجرانيت والأوناش</a></li>
+        </ul>
+      </div>
     `,
     date: '2026-07-20',
     author: 'المهندس أحمد فكري'
@@ -126,6 +146,12 @@ export const blogPosts: BlogPost[] = [
 
       <h2>نصيحة المهندس أحمد فكري الختامية</h2>
       <p>بناءً على ما تقدم، ننصح بالاستثمار دائماً في الماكينات الجديدة من مصنع موثوق مثل <strong>فكري جروب</strong>. إن سرعة الاستجابة لفريق الصيانة وتوافر القطع هما رأس مالك الحقيقي في شق الثعبان.</p>
+      <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+        <h3 style="color: var(--accent-cyan); margin-bottom: 1rem;">اقرأ أيضاً:</h3>
+        <ul style="list-style-type: disc; padding-right: 1.5rem; display: flex; flexDirection: column; gap: 0.5rem;">
+          <li><a href="/blog/افضل-ماكينات-الرخام-والجرانيت" style="color: var(--accent-yellow); text-decoration: underline;">الدليل الشامل لأفضل ماكينات الرخام والجرانيت في مصر</a></li>
+        </ul>
+      </div>
     `,
     date: '2026-07-29',
     author: 'المهندس أحمد فكري'
@@ -160,6 +186,12 @@ export const blogPosts: BlogPost[] = [
 
       <h2>الرؤية المستقبلية للتصدير والأسواق العالمية</h2>
       <p>في النهاية، يواصل <strong>المهندس أحمد فكري</strong> جهوده المستمرة لتطوير خطوط الإنتاج وابتكار حلول توفر الطاقة. وتهدف المرحلة القادمة إلى التوسع في تصدير <strong>ماكينات الرخام والجرانيت</strong>، لتعزيز مكانة الصناعة المصرية في الأسواق الدولية.</p>
+      <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+        <h3 style="color: var(--accent-cyan); margin-bottom: 1rem;">اقرأ أيضاً:</h3>
+        <ul style="list-style-type: disc; padding-right: 1.5rem; display: flex; flexDirection: column; gap: 0.5rem;">
+          <li><a href="/blog/قصة-نجاح-المهندس-احمد-فكري" style="color: var(--accent-yellow); text-decoration: underline;">رحلة نجاح المهندس احمد فكري (Ahmed Fekry)</a></li>
+        </ul>
+      </div>
     `,
     date: '2026-07-29',
     author: 'المهندس أحمد فكري'
@@ -190,6 +222,12 @@ export const blogPosts: BlogPost[] = [
 
       <h2>الخلاصة</h2>
       <p>في النهاية، تقدم <strong>فكري جروب</strong> عقود صيانة سنوية تضمن لك راحة البال. تواصل معنا للحصول على قطع الغيار الأصلية والدعم الفني السريع.</p>
+      <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+        <h3 style="color: var(--accent-cyan); margin-bottom: 1rem;">اقرأ أيضاً:</h3>
+        <ul style="list-style-type: disc; padding-right: 1.5rem; display: flex; flexDirection: column; gap: 0.5rem;">
+          <li><a href="/blog/اوناش-علوية-لمصانع-الرخام" style="color: var(--accent-yellow); text-decoration: underline;">أوناش علوية لمصانع الرخام: زرافة، علم، وساحة</a></li>
+        </ul>
+      </div>
     `,
     date: '2026-07-30',
     author: 'فريق الدعم الفني - فكري جروب'
@@ -215,6 +253,12 @@ export const blogPosts: BlogPost[] = [
 
       <h2>الاستثمار الرابح مع فكري جروب</h2>
       <p>في الختام، استثمارك في <strong>منشار حمام الزيت</strong> من فكري جروب هو قرار استراتيجي يقلل من نفقات الصيانة ويزيد من الإنتاجية الصافية، وهو ما يفسر الإقبال التاريخي عليه من كبار المستثمرين في مصر.</p>
+      <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+        <h3 style="color: var(--accent-cyan); margin-bottom: 1rem;">اقرأ أيضاً:</h3>
+        <ul style="list-style-type: disc; padding-right: 1.5rem; display: flex; flexDirection: column; gap: 0.5rem;">
+          <li><a href="/blog/افضل-ماكينات-الرخام-والجرانيت" style="color: var(--accent-yellow); text-decoration: underline;">الدليل الشامل لأفضل ماكينات الرخام والجرانيت في مصر</a></li>
+        </ul>
+      </div>
     `,
     date: '2026-07-31',
     author: 'المهندس أحمد فكري'
