@@ -3,15 +3,26 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { Metadata } from 'next'
 
-export async function generateMetadata(): Promise<Metadata> {
-  const post = blogPosts.find((p) => p.slug === 'marble-granite-machines-egypt-fekry-group')
+type Props = {
+  params: { slug: string }
+}
+
+export async function generateStaticParams() {
+  return blogPosts.map((post) => ({
+    slug: post.slug,
+  }))
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const decodedSlug = decodeURIComponent(params.slug)
+  const post = blogPosts.find((p) => p.slug === decodedSlug)
   
   if (!post) {
     return { title: 'المقال غير موجود' }
   }
 
   return {
-    title: `${post.title} - المهندس احمد فكري`,
+    title: `${post.title} - المهندس احمد فكري | Ahmed Fekry`,
     description: post.excerpt,
     openGraph: {
       title: post.title,
@@ -23,8 +34,9 @@ export async function generateMetadata(): Promise<Metadata> {
   }
 }
 
-export default function BlogPost() {
-  const post = blogPosts.find((p) => p.slug === 'marble-granite-machines-egypt-fekry-group')
+export default function BlogPost({ params }: Props) {
+  const decodedSlug = decodeURIComponent(params.slug)
+  const post = blogPosts.find((p) => p.slug === decodedSlug)
 
   if (!post) {
     notFound()
@@ -37,7 +49,7 @@ export default function BlogPost() {
       </Link>
       
       <article className="glass-panel" style={{ padding: '3rem' }}>
-        <h1 style={{ fontSize: '2.5rem', color: 'var(--accent-cyan)', marginBottom: '1rem' }}>
+        <h1 style={{ fontSize: '2.5rem', color: 'var(--accent-cyan)', marginBottom: '1rem', lineHeight: '1.4' }}>
           {post.title}
         </h1>
         <div style={{ color: 'var(--text-secondary)', marginBottom: '2rem', paddingBottom: '1rem', borderBottom: '1px solid var(--border-color)' }}>
