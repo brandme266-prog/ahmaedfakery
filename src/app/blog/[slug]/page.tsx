@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Metadata } from 'next'
 
 type Props = {
-  params: { slug: string }
+  params: Promise<{ slug: string }>
 }
 
 export async function generateStaticParams() {
@@ -14,7 +14,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const decodedSlug = decodeURIComponent(params.slug)
+  const resolvedParams = await params
+  const decodedSlug = decodeURIComponent(resolvedParams.slug)
   const post = blogPosts.find((p) => p.slug === decodedSlug)
   
   if (!post) {
@@ -34,8 +35,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-export default function BlogPost({ params }: Props) {
-  const decodedSlug = decodeURIComponent(params.slug)
+export default async function BlogPost({ params }: Props) {
+  const resolvedParams = await params
+  const decodedSlug = decodeURIComponent(resolvedParams.slug)
   const post = blogPosts.find((p) => p.slug === decodedSlug)
 
   if (!post) {
