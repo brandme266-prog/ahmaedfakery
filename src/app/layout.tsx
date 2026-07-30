@@ -39,7 +39,7 @@ export default function RootLayout({
             {/* Logo & Navigation Links (Right side) */}
             <div className="nav-right" style={{ display: 'flex', alignItems: 'center', gap: '3rem' }}>
               <Link href="/" style={{ display: 'flex', alignItems: 'center' }}>
-                <Image src="/img/logo.png" alt="فكري جروب" width={180} height={60} className="nav-logo" style={{ objectFit: 'contain' }} priority />
+                <Image src="/img/logo.png" alt="لوجو فكري جروب لصناعة ماكينات الرخام والجرانيت - المهندس احمد فكري" width={180} height={60} className="nav-logo" style={{ objectFit: 'contain' }} priority />
               </Link>
               
               <div className="nav-links-container" style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
