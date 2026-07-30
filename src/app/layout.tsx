@@ -34,6 +34,28 @@ export default function RootLayout({
   return (
     <html lang="ar" dir="rtl">
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Ahmed Fekry",
+              "alternateName": ["المهندس احمد فكري", "أحمد فكري"],
+              "description": "رائد صناعة ماكينات الرخام والجرانيت في مصر والشرق الأوسط.",
+              "url": "https://ahfekry.com",
+              "sameAs": [
+                "https://www.facebook.com/1ahmedfekry/",
+                "https://www.instagram.com/p/DLNjbixITRX/",
+                "https://www.tiktok.com/@eng.ahmed.fekry"
+              ],
+              "worksFor": {
+                "@type": "Organization",
+                "name": "Fekry Group"
+              }
+            })
+          }}
+        />
         <nav className="navbar">
           <div className="navbar-inner">
             {/* Logo & Navigation Links (Right side) */}
