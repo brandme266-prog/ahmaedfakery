@@ -3,8 +3,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'من نحن - المهندس احمد فكري | Ahmed Fekry',
-  description: 'تعرف على القصة الكاملة للمهندس احمد فكري (Ahmed Fekry)، رائد صناعة ماكينات الرخام والجرانيت، ومؤسس فكري جروب في الشرق الأوسط.',
+  title: 'Ahmed Fekry | من نحن - المهندس احمد فكري',
+  description: 'Ahmed Fekry (المهندس احمد فكري) - رائد صناعة ماكينات الرخام والجرانيت ومؤسس فكري جروب. تعرف على القصة الكاملة لأسطورة الصناعة الثقيلة في مصر والشرق الأوسط.',
+  keywords: 'Ahmed Fekry, المهندس احمد فكري, فكري جروب, ماكينات رخام, Fekry Group',
 }
 
 export default function AboutPage() {
