@@ -46,7 +46,7 @@ export const blogPosts: BlogPost[] = [
           <li><a href="/blog/قصة-نجاح-المهندس-احمد-فكري" style="color: var(--accent-yellow); text-decoration: underline;">بدايات رحلة نجاح فكري جروب في سوق الرخام</a></li>
         </ul>
       </div>
-    \`,
+    `,
     date: '2026-08-04',
     author: 'فريق التحرير - فكري جروب'
   },
