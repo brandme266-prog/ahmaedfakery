@@ -44,7 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/احمد-فكري`,
+      url: `${baseUrl}/ahmed-fekry`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 1.0,

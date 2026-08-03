@@ -209,7 +209,7 @@ export default function Home() {
           </a>
         </div>
         <div style={{ marginBottom: '1rem', display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-          <Link href="/احمد-فكري" style={{ color: 'var(--accent-yellow)', fontWeight: '700', textDecoration: 'underline' }}>احمد فكري</Link>
+          <Link href="/ahmed-fekry" style={{ color: 'var(--accent-yellow)', fontWeight: '700', textDecoration: 'underline' }}>احمد فكري</Link>
           <Link href="/about" style={{ color: 'var(--text-secondary)' }}>من نحن</Link>
           <Link href="/blog" style={{ color: 'var(--text-secondary)' }}>المقالات</Link>
           <Link href="/products" style={{ color: 'var(--text-secondary)' }}>المنتجات</Link>
