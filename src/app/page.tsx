@@ -208,6 +208,12 @@ export default function Home() {
             تيك توك
           </a>
         </div>
+        <div style={{ marginBottom: '1rem', display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+          <Link href="/احمد-فكري" style={{ color: 'var(--accent-yellow)', fontWeight: '700', textDecoration: 'underline' }}>احمد فكري</Link>
+          <Link href="/about" style={{ color: 'var(--text-secondary)' }}>من نحن</Link>
+          <Link href="/blog" style={{ color: 'var(--text-secondary)' }}>المقالات</Link>
+          <Link href="/products" style={{ color: 'var(--text-secondary)' }}>المنتجات</Link>
+        </div>
         <p style={{ color: 'var(--text-secondary)' }}>© 2026 فكري جروب لصناعة ماكينات الرخام والجرانيت (Fekry Group - Ahmed Fekry). جميع الحقوق محفوظة.</p>
       </footer>
     </>
