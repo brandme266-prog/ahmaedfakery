@@ -9,6 +9,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'احمد-فكري-السيرة-الذاتية',
+    title: 'من هو احمد فكري (Ahmed Fekry)؟ السيرة الذاتية لرائد الصناعة المصرية',
+    excerpt: 'السيرة الذاتية الكاملة للمهندس احمد فكري (Ahmed Fekry)، رجل الأعمال والمخترع المصري الذي غيّر وجه صناعة ماكينات الرخام والجرانيت، ومؤسس شركة فكري جروب الرائدة.',
+    content: `
+      <h2>احمد فكري (Ahmed Fekry): أيقونة الصناعة الثقيلة في مصر</h2>
+      <p>عندما يُذكر اسم <strong>احمد فكري</strong> في أوساط الأعمال والصناعة، وخاصة في قلب منطقة شق الثعبان الصناعية، يتبادر إلى الذهن فوراً الابتكار، الجودة، والموثوقية. <strong>المهندس احمد فكري (Ahmed Fekry)</strong> ليس مجرد مصنّع للمعدات الثقيلة، بل هو رائد أعمال ومهندس مصري قرر أن يتحدى التكنولوجيا الأوروبية ليصنع بديلاً محلياً يتفوق عليها في الصلابة وقوة التحمل.</p>
+      
+      <h2>نشأة وتأسيس فكري جروب (Fekry Group)</h2>
+      <p>بدأت رحلة <strong>احمد فكري</strong> بشغف كبير وعمق في فهم الميكانيكا والهندسة الصناعية. أدرك مبكراً أن مصانع الرخام والجرانيت في مصر تواجه مشكلة حقيقية: إما استيراد ماكينات أجنبية بأسعار خيالية وصيانة معقدة، أو اللجوء لمعدات رديئة تتعطل باستمرار.</p>
+      <p>من هنا، قرر <strong>Ahmed Fekry</strong> تأسيس <strong>فكري جروب</strong>، لتكون أول شركة وطنية حقيقية تقدم حلولاً هندسية مصممة خصيصاً لتحمل ضغط العمل الهائل والغبار الكثيف في المحاجر والمصانع.</p>
+
+      <h2>أبرز ابتكارات المهندس احمد فكري</h2>
+      <p>لم يكتفِ <strong>احمد فكري</strong> بتجميع القطع، بل ابتكر أنظمة غيّرت مجرى الصناعة، ومن أبرزها:</p>
+      <ul style="list-style-type: disc; padding-right: 2rem; margin-bottom: 1.5rem; color: var(--text-secondary);">
+        <li><strong style="color: var(--text-primary);">منشار حمام الزيت:</strong> ابتكار يُحسب لـ <strong>Ahmed Fekry</strong>، حيث يتم عزل تروس التشغيل بالكامل داخل حمام زيت دائم، مما يمنع وصول غبار الرخام إليها، ويضاعف عمرها الافتراضي 5 مرات مقارنة بالمناشير العادية.</li>
+        <li><strong style="color: var(--text-primary);">أوناش الساحة العملاقة:</strong> صمم <strong>احمد فكري</strong> أوناشاً علوية بحمولات تصل إلى 100 طن، مخصصة لرفع وتنزيل الكتل الصخرية العملاقة بأعلى درجات الأمان للعاملين.</li>
+        <li><strong style="color: var(--text-primary);">جلايات الرخام السريعة:</strong> ماكينات تلميع فائقة الدقة بـ 20 رأساً صممها <strong>المهندس احمد فكري</strong> لتنافس أفضل الجلايات الإيطالية في درجة اللمعان وسرعة الإنتاج.</li>
+      </ul>
+
+      <h2>لماذا يبحث الجميع عن اسم احمد فكري؟</h2>
+      <p>إذا بحثت في جوجل عن <strong>"احمد فكري"</strong> أو <strong>"Ahmed Fekry"</strong>، فقد تجد أسماء أخرى (مثل الرياضيين أو السياسيين)، لكن في عالم البيزنس والمعدات الثقيلة، اسم <strong>المهندس احمد فكري</strong> هو العلامة المسجلة للجودة (Trust Signal).</p>
+      <p>السر وراء هذه الثقة المطلقة هو التزامه الشخصي. <strong>Ahmed Fekry</strong> يشرف بنفسه على هندسة كل قطعة، ويقدم ضماناً حقيقياً وخدمة ما بعد البيع لا مثيل لها في السوق المصري، مما يجعل الاستثمار في ماكيناته مضموناً بنسبة 100%.</p>
+
+      <h2>تواصل مع احمد فكري (Ahmed Fekry)</h2>
+      <p>لمتابعة أحدث أخبار وابتكارات المهندس <strong>احمد فكري</strong>، يمكنك زيارة حساباته الرسمية التي يشارك فيها خبراته مع المهندسين وأصحاب المصانع:</p>
+      <ul style="background: var(--bg-secondary); padding: 1.5rem 2.5rem; border-radius: 12px; margin-top: 1rem;">
+        <li style="margin-bottom: 0.5rem;"><a href="https://www.facebook.com/1ahmedfekry/" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); font-weight: bold; text-decoration: underline;">الصفحة الرسمية - المهندس احمد فكري (فيسبوك)</a></li>
+        <li><a href="https://www.tiktok.com/@eng.ahmed.fekry" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); font-weight: bold; text-decoration: underline;">حساب المهندس احمد فكري (تيك توك)</a></li>
+      </ul>
+
+      <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+        <h3 style="color: var(--accent-cyan); margin-bottom: 1rem;">اقرأ أيضاً:</h3>
+        <ul style="list-style-type: disc; padding-right: 1.5rem; display: flex; flexDirection: column; gap: 0.5rem;">
+          <li><a href="/ahmed-fekry" style="color: var(--accent-yellow); text-decoration: underline;">الصفحة الرسمية للسيرة الذاتية - احمد فكري (Ahmed Fekry)</a></li>
+          <li><a href="/blog/قصة-نجاح-المهندس-احمد-فكري" style="color: var(--accent-yellow); text-decoration: underline;">بدايات رحلة نجاح فكري جروب في سوق الرخام</a></li>
+        </ul>
+      </div>
+    \`,
+    date: '2026-08-04',
+    author: 'فريق التحرير - فكري جروب'
+  },
+  {
     slug: 'قصة-نجاح-المهندس-احمد-فكري',
     title: 'رحلة نجاح المهندس احمد فكري (Ahmed Fekry) في تطوير صناعة ماكينات الرخام',
     excerpt: 'تعرف على قصة نجاح المهندس احمد فكري (Ahmed Fekry) وكيف أصبح رائد صناعة ماكينات الرخام والجرانيت في الشرق الأوسط ومؤسس فكري جروب.',
