@@ -9,7 +9,7 @@ type Props = {
 
 export async function generateStaticParams() {
   return blogPosts.map((post) => ({
-    slug: post.slug,
+    slug: encodeURIComponent(post.slug),
   }))
 }
 
