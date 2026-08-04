@@ -135,6 +135,71 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* FAQ Section for SEO */}
+      <section id="faq" className="section" style={{ background: 'var(--bg-primary)' }}>
+        <div className="container">
+          <h2 style={{ fontSize: 'clamp(1.8rem, 4vw, 2.5rem)', color: 'var(--accent-yellow)', marginBottom: '2rem', textAlign: 'center' }}>
+            الأسئلة الشائعة عن المهندس احمد فكري
+          </h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', maxWidth: '800px', margin: '0 auto' }}>
+            <div className="glass-panel" style={{ padding: '1.5rem' }}>
+              <h3 style={{ color: 'var(--accent-cyan)', marginBottom: '0.8rem' }}>من هو احمد فكري؟</h3>
+              <p style={{ color: 'var(--text-secondary)', lineHeight: '1.7' }}>
+                المهندس احمد فكري (Ahmed Fekry) هو خبير هندسي وصناعي مصري، ورائد في مجال تصنيع ماكينات الرخام والجرانيت. هو مؤسس شركة "فكري جروب" التي تعد من أهم قلاع الصناعة الثقيلة في الشرق الأوسط ومصر، وتحديداً في منطقة شق الثعبان.
+              </p>
+            </div>
+            <div className="glass-panel" style={{ padding: '1.5rem' }}>
+              <h3 style={{ color: 'var(--accent-cyan)', marginBottom: '0.8rem' }}>ما هي أبرز ابتكارات احمد فكري في مجال الصناعة؟</h3>
+              <p style={{ color: 'var(--text-secondary)', lineHeight: '1.7' }}>
+                يُعرف المهندس احمد فكري بابتكار وتطوير "منشار حمام الزيت" الذي يُطيل العمر الافتراضي لمعدات قص الرخام. كما قام بتطوير أوناش علوية (الزرافة والساحة) بحمولات عملاقة، وجلايات رخام تضاهي الماكينات الإيطالية.
+              </p>
+            </div>
+            <div className="glass-panel" style={{ padding: '1.5rem' }}>
+              <h3 style={{ color: 'var(--accent-cyan)', marginBottom: '0.8rem' }}>كيف يمكنني التواصل مع فكري جروب أو المهندس احمد فكري؟</h3>
+              <p style={{ color: 'var(--text-secondary)', lineHeight: '1.7' }}>
+                يمكنك التواصل مع المهندس احمد فكري مباشرة لطلب ماكينات الرخام أو الاستشارات الهندسية عبر الواتساب على الأرقام: 01011218141 أو 01001163633، أو زيارة صفحة "فكري جروب" الرسمية.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* FAQ Schema Markup */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "من هو احمد فكري؟",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "المهندس احمد فكري (Ahmed Fekry) هو خبير هندسي وصناعي مصري، ورائد في مجال تصنيع ماكينات الرخام والجرانيت. هو مؤسس شركة فكري جروب."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "ما هي أبرز ابتكارات احمد فكري في مجال الصناعة؟",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "يُعرف المهندس احمد فكري بابتكار وتطوير منشار حمام الزيت وتصنيع أوناش علوية بحمولات عملاقة لمصانع الرخام."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "كيف يمكنني التواصل مع فكري جروب أو المهندس احمد فكري؟",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "يمكنك التواصل عبر الواتساب على 01011218141 أو زيارة مصانع الشركة في عرب أبو ساعد والمنصورة."
+                  }
+                }
+              ]
+            })
+          }}
+        />
+      </section>
 
       {/* Contact Section */}
       <section id="contact" className="section" style={{ background: 'var(--bg-secondary)' }}>

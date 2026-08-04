@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const products = ['granite-saw-13-blades', 'polishing-machine-10-heads', 'giraffe-flag-crane', 'yard-crane-100-ton', 'fekry-1600-machine'];
-const blogs = ['marble-granite-machines-egypt-fekry-group', 'overhead-cranes-marble-factories', 'marble-machine-prices-egypt-guide', 'ahmed-fekry-industrial-pioneer', 'marble-machines-maintenance-guide', 'shaq-el-thoban-oil-bath-saw-preference'];
+const blogs = ['marble-granite-machines-egypt-fekry-group', 'overhead-cranes-marble-factories', 'marble-machine-prices-egypt-guide', 'ahmed-fekry-industrial-pioneer', 'marble-machines-maintenance-guide', 'shaq-el-thoban-oil-bath-saw-preference', 'who-is-ahmed-fekry'];
 
 const productTemplate = (slug) => `import Image from 'next/image'
 import Link from 'next/link'

@@ -80,7 +80,7 @@ export default function AhmedFekryPage() {
                 من هو احمد فكري؟
               </h2>
               <p style={{ color: 'var(--text-primary)', lineHeight: '1.9', fontSize: '1.1rem', marginBottom: '1.5rem' }}>
-                <strong>احمد فكري</strong> (بالإنجليزية: <strong>Ahmed Fekry</strong>) مهندس مصري ورجل صناعة من الطراز الأول. اشتهر بتأسيسه لمؤسسة <strong>فكري جروب (Fekry Group)</strong>، التي أصبحت المرجع الأول في تصنيع ماكينات الرخام والجرانيت والأوناش العلوية داخل مصر.
+                <strong>احمد فكري</strong> مهندس مصري ورجل صناعة من الطراز الأول. اشتهر بتأسيسه لمؤسسة <strong>فكري جروب (Fekry Group)</strong>، التي أصبحت المرجع الأول في تصنيع ماكينات الرخام والجرانيت والأوناش العلوية داخل مصر.
               </p>
               <p style={{ color: 'var(--text-primary)', lineHeight: '1.9', fontSize: '1.1rem', marginBottom: '1.5rem' }}>
                 يُعرف <strong>احمد فكري</strong> بابتكاره لتقنية <strong>منشار حمام الزيت</strong> التي غيّرت قواعد اللعبة في مصانع شق الثعبان، وتصدير معداته إلى دول عربية وأفريقية متعددة.
@@ -126,10 +126,13 @@ export default function AhmedFekryPage() {
               ✅ <strong>المهندس احمد فكري</strong> (هذه الصفحة) - رائد صناعة ماكينات الرخام، مؤسس فكري جروب
             </li>
             <li style={{ color: 'var(--text-secondary)' }}>
-              ○ أحمد فكري الصغير - لاعب كرة قدم مصري سابق
+              ○ دكتور احمد فكري - طبيب أسنان أو استشاري أطفال بفيزيتا
             </li>
             <li style={{ color: 'var(--text-secondary)' }}>
-              ○ أحمد فكري - مسؤول في شركة NERIC للسكك الحديدية
+              ○ الكاتب أحمد فكري - روائي ومؤلف قصص رعب
+            </li>
+            <li style={{ color: 'var(--text-secondary)' }}>
+              ○ احمد فكري - صانع محتوى وكوميديا على تيك توك
             </li>
           </ul>
         </div>
