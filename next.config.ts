@@ -12,8 +12,8 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: '/blog/قصة-نجاح-المهندس-احمد-فكري',
-        destination: '/blog/ahmed-fekry-success-story',
+        source: '/blog/ahmed-fekry-success-story',
+        destination: '/blog/قصة-نجاح-المهندس-احمد-فكري',
         permanent: true,
       },
       {
