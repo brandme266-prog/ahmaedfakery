@@ -470,74 +470,278 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'how-ahmed-fekry-transformed-marble-industry-egypt',
-    title: 'كيف حول احمد فكري صناعة ماكينات الرخام والجرانيت في مصر؟ (تغطية شاملة)',
-    excerpt: 'اكتشف كيف قاد احمد فكري (Ahmed Fekry) ثورة صناعية في مصر بتوطين صناعة ماكينات الرخام والجرانيت، وتعرف على أهم المعدات مثل منشار حمام الزيت والأوناش العلوية والجلايات الآلية.',
+    title: 'كيف حول احمد فكري (Ahmed Fekry) صناعة ماكينات الرخام والجرانيت في مصر؟ الدليل الكامل',
+    excerpt: 'تقرير شامل ومعمق عن احمد فكري (Ahmed Fekry) وكيف أحدث ثورة حقيقية في صناعة ماكينات الرخام والجرانيت في مصر، مع وصف كامل لكل الماكينات، جداول المواصفات، وروابط التغطيات الصحفية.',
     content: `
-      <h2>مقدمة: تحديات صناعة الرخام في مصر</h2>
-      <p>لعقود طويلة، واجه قطاع <strong>الرخام والجرانيت في مصر</strong>، وتحديداً في منطقة شق الثعبان، تحديات هائلة. تمثلت أبرز هذه التحديات في الاعتماد الكامل على استيراد الماكينات والمعدات من الخارج، مما يعني تكاليف استثمارية باهظة، وأزمات مستمرة في توفير قطع الغيار. استمر هذا الوضع حتى ظهر <strong>احمد فكري (Ahmed Fekry)</strong> ليغير قواعد اللعبة بالكامل.</p>
+      <h2>احمد فكري (Ahmed Fekry): الرجل الذي أعاد كتابة تاريخ صناعة الرخام في مصر</h2>
+      <p>قبل أن يظهر اسم <strong>احمد فكري (Ahmed Fekry)</strong> على خريطة الصناعة الثقيلة في مصر، كانت قصة <strong>مصانع الرخام والجرانيت</strong> في منطقة <strong>شق الثعبان</strong> قصة اعتماد كامل على الخارج. كانت المصانع تستورد ماكيناتها من إيطاليا والصين وتدفع ثمنها الباهظ، ثم تنتظر أشهراً لاستيراد قطع الغيار عند أول عطل. كان هذا يعني خسائر فادحة، وتوقف خطوط الإنتاج، وضغطاً هائلاً على المستثمرين.</p>
 
-      <h2>رؤية احمد فكري: توطين الصناعة الثقيلة</h2>
-      <p>لم يكتفِ <strong>احمد فكري</strong> بمجرد استيراد وبيع الماكينات، بل أدرك مبكراً أن الاستقلال الصناعي يبدأ من التصنيع المحلي. اعتمدت رؤيته على هندسة عكسية وتطوير جذري للمعدات لتناسب البيئة القاسية ومعدلات التشغيل العالية في المصانع المصرية. من خلال مؤسسة <strong>فكري جروب</strong>، بدأ في إنتاج <strong>ماكينات رخام وجرانيت</strong> تتفوق في متانتها وعمرها الافتراضي على نظيراتها المستوردة.</p>
+      <p>جاء <strong>احمد فكري</strong> ليقول: لا، هذا يجب أن يتغير. وقد فعل ذلك بالفعل.</p>
 
-      <h2>قائمة الماكينات التي صممها وصنعها احمد فكري</h2>
-      <p>تغطي خطوط إنتاج فكري جروب كافة مراحل تصنيع ومعالجة الحجر. إليك الدليل الشامل لكل المعدات التي تم ابتكارها وتصنيعها تحت إشراف <strong>Ahmed Fekry</strong>:</p>
+      <div style="margin: 2rem 0; padding: 1.5rem 2rem; background: var(--bg-secondary); border-radius: 12px; border-right: 4px solid var(--accent-cyan);">
+        <p style="margin: 0; font-size: 1.1rem; font-style: italic; color: var(--text-primary);">"الصناعة المصرية قادرة على المنافسة عالمياً إذا بُنيت على أساس من الضمير الهندسي والجودة الحقيقية." — <strong>احمد فكري (Ahmed Fekry)</strong></p>
+      </div>
 
-      <h3>1. معدات القص والنشر (المناشير)</h3>
-      <ul style="list-style-type: disc; padding-right: 2rem; margin-bottom: 1.5rem; color: var(--text-secondary);">
-        <li><strong style="color: var(--text-primary);">منشار حمام زيت 6 متر:</strong> يعتبر أيقونة فكري جروب. يتميز بعزل كامل للتروس داخل حوض زيت مغلق، مما يمنع دخول غبار الرخام ويضاعف عمر الماكينة الافتراضي بشكل استثنائي.</li>
-        <li><strong style="color: var(--text-primary);">ماكينات طاليا بلوك (Taglia Blocchi):</strong> مصممة لتقطيع البلوكات بسرعة ودقة متناهية، وتقليل الهادر في عملية القص.</li>
-        <li><strong style="color: var(--text-primary);">منشار 1600 و 1200:</strong> مناشير مخصصة لعمليات التقطيع الدقيقة للجرانيت والرخام القاسي.</li>
+      <h2>قبل احمد فكري: مشكلة حقيقية تعاني منها المصانع</h2>
+      <p>لفهم حجم التحول الذي أحدثه <strong>Ahmed Fekry</strong>، يجب أن نفهم أولاً المشكلة التي كانت تعاني منها المصانع المصرية:</p>
+      <ol style="list-style-type: decimal; padding-right: 2rem; margin-bottom: 1.5rem; color: var(--text-secondary); line-height: 2.2;">
+        <li><strong style="color: var(--text-primary);">تكلفة استيراد ماهولة:</strong> الماكينة الإيطالية الواحدة كانت تكلف ما يعادل ضعف سعر المنتج المحلي بعد الجمارك والشحن.</li>
+        <li><strong style="color: var(--text-primary);">أزمة قطع الغيار:</strong> عند تعطل أي قطعة، كان المصنع يتوقف لأسابيع بل أشهر انتظاراً للاستيراد.</li>
+        <li><strong style="color: var(--text-primary);">ضعف الدعم الفني:</strong> لم يكن هناك خبراء محليون متخصصون في صيانة هذه الماكينات.</li>
+        <li><strong style="color: var(--text-primary);">الهشاشة أمام غبار الرخام:</strong> الماكينات المستوردة لم تكن مصممة للبيئة القاسية في مصانع الحجر المليئة بالغبار الكثيف.</li>
+      </ol>
+
+      <h2>مرحلة التأسيس: كيف بدأت رحلة احمد فكري؟</h2>
+      <p>بدأ <strong>احمد فكري</strong> رحلته من ورشة متواضعة في منطقة شق الثعبان، مسلحاً بخلفية هندسية متينة وفهم عميق لاحتياجات السوق. لاحظ أن كل مصنع يعاني من نفس المشكلات، وأن الحل الجذري يكمن في التصنيع المحلي الكامل.</p>
+      <p>من تلك الورشة الصغيرة، بدأ في تصميم أول نماذجه من المعدات. كانت البداية بإصلاح وتعديل ماكينات مستوردة، ثم تدريجياً بدأ في تصنيع قطع كاملة من البداية. مع كل نجاح، توسع المصنع حتى تحول إلى ما هو عليه اليوم: <strong>فكري جروب</strong>، المجموعة الصناعية التي تمتلك مصانع في المنصورة وعرب أبو ساعد.</p>
+
+      <h2>الأبتكار الأشهر: نظام "حمام الزيت" الذي غير كل شيء</h2>
+      <p>إذا كان هناك اختراع واحد وضع <strong>احمد فكري</strong> على خريطة الابتكار الصناعي، فهو نظام <strong>"حمام الزيت"</strong> في المناشير. الفكرة ببساطة ثورية:</p>
+
+      <ul style="list-style-type: disc; padding-right: 2rem; margin-bottom: 1.5rem; color: var(--text-secondary); line-height: 2.2;">
+        <li>في المناشير التقليدية، تكون تروس الحركة مكشوفة وتتعرض مباشرة لغبار الرخام والجرانيت الصلب.</li>
+        <li>الغبار يتسلل بين الأسنان ويتسبب في تآكل سريع جداً وأعطال متكررة.</li>
+        <li>ابتكر <strong>Ahmed Fekry</strong> حلاً بسيطاً وعبقرياً: عزل مجموعة التروس بالكامل داخل حوض معدني مغلق مليء بالزيت.</li>
+        <li>الزيت يمنع دخول الغبار تماماً، يقلل الاحتكاك بنسبة 70%، ويطرد الحرارة المتولدة.</li>
+        <li>النتيجة: عمر افتراضي للماكينة يصل إلى 5 أضعاف الماكينة التقليدية، مع تقليل تكاليف الصيانة بشكل جذري.</li>
       </ul>
 
-      <h3>2. معدات التلميع (الجلايات الآلية)</h3>
-      <p>لمعالجة الأسطح وإعطاء الرخام لمعانه النهائي، طور <strong>احمد فكري</strong> سلسلة من الجلايات الآلية:</p>
+      <h2>الدليل الشامل لكل ماكينات احمد فكري (فكري جروب)</h2>
+      <p>يتميز <strong>Ahmed Fekry</strong> بتقديم خط إنتاج متكامل يغطي كل مراحل تصنيع الرخام من بلوك الحجر الخام حتى اللوح النهائي المصقول. إليك الوصف التفصيلي الكامل لكل ماكينة:</p>
+
+      <h3 style="color: var(--accent-yellow); margin-top: 2rem;">أولاً: معدات القص والنشر (المناشير)</h3>
+
+      <h4 style="color: var(--accent-cyan);">🔹 منشار حمام زيت 6 متر — الأيقونة</h4>
+      <p>هو الأكثر شهرة وطلباً في السوق. مصمم لتقطيع البلوكات الكبيرة من الرخام والجرانيت إلى ألواح نظيفة ودقيقة.</p>
       <ul style="list-style-type: disc; padding-right: 2rem; margin-bottom: 1.5rem; color: var(--text-secondary);">
-        <li><strong style="color: var(--text-primary);">جلاية 20 رأس و 12 رأس و 10 رأس:</strong> ماكينات تلميع مستمرة (Line Polishers) قادرة على التعامل مع ألواح كاملة وإنتاج كميات ضخمة يومياً بجودة تضاهي اللمعان الإيطالي.</li>
-        <li><strong style="color: var(--text-primary);">جلاية الفرسة والجلايات اليدوية:</strong> لمعالجة الأماكن الضيقة والتفاصيل الدقيقة في الرخام.</li>
+        <li>طول القطع: 6 أمتار كاملة يستوعب البلوكات العملاقة</li>
+        <li>نظام تشغيل: حمام زيت مغلق تماماً للتروس (الابتكار الحصري)</li>
+        <li>نسبة هالك: أقل نسبة هالك في السوق المصري بسبب دقة المعايرة</li>
+        <li>الصيانة: تغيير زيت دوري فقط، بدون أي تكاليف إضافية</li>
       </ul>
 
-      <h3>3. معدات الرفع والمناولة (الأوناش العلوية)</h3>
-      <p>لا يمكن لأي مصنع رخام العمل بدون نظام أوناش علوية قوي وآمن. قدم <strong>Ahmed Fekry</strong> منظومة متكاملة من الأوناش:</p>
+      <h4 style="color: var(--accent-cyan);">🔹 ماكينات طاليا بلوك (Taglia Blocchi)</h4>
+      <p>مصممة خصيصاً لعملية "التاليا"، أي تقطيع البلوك الكبير إلى أجزاء قابلة للتشغيل في المناشير الأصغر.</p>
       <ul style="list-style-type: disc; padding-right: 2rem; margin-bottom: 1.5rem; color: var(--text-secondary);">
-        <li><strong style="color: var(--text-primary);">ونش الساحة العملاق (ونش أرضية):</strong> بحمولات ضخمة تصل إلى 100 طن، مصمم خصيصاً للساحات الخارجية لتحميل وتفريغ بلوكات الرخام الثقيلة.</li>
-        <li><strong style="color: var(--text-primary);">ونش الزرافة:</strong> يتميز بالحركة الرباعية السريعة (عربية 4 حركة) وبحمولات بين 1 طن إلى 2 طن.</li>
-        <li><strong style="color: var(--text-primary);">ونش العلم:</strong> لتغذية المناشير بكفاءة في المساحات الضيقة داخل المصنع.</li>
+        <li>قدرة على تقطيع أصعب أنواع الجرانيت الصلب</li>
+        <li>سرعة إنتاج عالية جداً تقلل وقت التشغيل</li>
+        <li>تصميم هيكلي من الصلب الثقيل يتحمل اهتزازات القطع</li>
       </ul>
 
-      <h2>جدول ملخص لأبرز ماكينات فكري جروب</h2>
-      <div style="overflow-x: auto; margin-bottom: 2rem; margin-top: 1.5rem;">
-        <table style="width: 100%; border-collapse: collapse; text-align: right;">
+      <h4 style="color: var(--accent-cyan);">🔹 ماكينات النشر 1600 و 1200</h4>
+      <p>مناشير متعددة الشفرات مخصصة للتقطيع الدقيق وإنتاج ألواح بسماكات موحدة.</p>
+      <ul style="list-style-type: disc; padding-right: 2rem; margin-bottom: 1.5rem; color: var(--text-secondary);">
+        <li>دقة قطع تصل إلى ميليمتر واحد</li>
+        <li>تعمل بشفرات متعددة في نفس الوقت لمضاعفة الإنتاج</li>
+        <li>مناسبة لمختلف أحجام البلوكات</li>
+      </ul>
+
+      <h3 style="color: var(--accent-yellow); margin-top: 2rem;">ثانياً: معدات التلميع (الجلايات الآلية)</h3>
+
+      <h4 style="color: var(--accent-cyan);">🔹 جلاية 20 رأس — قمة التكنولوجيا</h4>
+      <p>أكبر وأسرع جلاية في خط إنتاج فكري جروب. تستوعب الألواح عريضة العرض وتمنحها لمعاناً استثنائياً.</p>
+      <ul style="list-style-type: disc; padding-right: 2rem; margin-bottom: 1.5rem; color: var(--text-secondary);">
+        <li>20 رأساً تعمل بالتوازي للحصول على لمعان متدرج ومثالي</li>
+        <li>لوحة تحكم إلكترونية لضبط السرعة وضغط الرؤوس</li>
+        <li>منظومة مياه تبريد مدمجة تمنع الاحترار</li>
+        <li>لمعان نهائي يضاهي ويتفوق على الجلايات الإيطالية</li>
+      </ul>
+
+      <h4 style="color: var(--accent-cyan);">🔹 جلاية 12 رأس و 10 رأس</h4>
+      <p>مناسبة للمصانع متوسطة الإنتاج، وتقدم نفس جودة اللمعان بتكلفة استثمارية أقل.</p>
+      <ul style="list-style-type: disc; padding-right: 2rem; margin-bottom: 1.5rem; color: var(--text-secondary);">
+        <li>سرعة تغذية قابلة للتعديل لأنواع الرخام المختلفة</li>
+        <li>رؤوس تلميع متعددة الوظائف (خشن، ناعم، تلميع نهائي)</li>
+        <li>هيكل فولاذي متين لتحمل الاستخدام المستمر على مدار الساعة</li>
+      </ul>
+
+      <h3 style="color: var(--accent-yellow); margin-top: 2rem;">ثالثاً: الأوناش العلوية (معدات الرفع والمناولة)</h3>
+
+      <h4 style="color: var(--accent-cyan);">🔹 ونش الساحة العملاق (ونش الأرضية) — حتى 100 طن</h4>
+      <p>الونش الأضخم في خط منتجات فكري جروب. مصمم للعمل في الساحات الخارجية المكشوفة.</p>
+      <ul style="list-style-type: disc; padding-right: 2rem; margin-bottom: 1.5rem; color: var(--text-secondary);">
+        <li>حمولة أقصى: 100 طن</li>
+        <li>منظومة حركة رباعية الاتجاهات (أمام، خلف، يمين، يسار)</li>
+        <li>مواتير جر شديدة التحمل مصنوعة للعمل في الحر والبرد</li>
+        <li>أنظمة فرامل مزدوجة (كهربائية وميكانيكية) لأقصى درجات الأمان</li>
+        <li>هيكل من الصلب الثقيل مقاوم للتآكل والصدأ</li>
+      </ul>
+
+      <h4 style="color: var(--accent-cyan);">🔹 ونش الزرافة — السرعة والمرونة</h4>
+      <p>أكثر الأوناش استخداماً داخل المصانع لتغذية المناشير وتخزين الألواح.</p>
+      <ul style="list-style-type: disc; padding-right: 2rem; margin-bottom: 1.5rem; color: var(--text-secondary);">
+        <li>حمولة: من 1 طن إلى 2 طن</li>
+        <li>عربية 4 حركة للمرونة الكاملة داخل المصنع</li>
+        <li>سرعة رفع وتنزيل عالية لمضاعفة إنتاجية خط العمل</li>
+        <li>ذراع قابل للدوران 360 درجة في بعض الموديلات</li>
+      </ul>
+
+      <h4 style="color: var(--accent-cyan);">🔹 ونش العلم — الحل للمساحات الضيقة</h4>
+      <p>حل هندسي ذكي للمصانع التي تعاني من ضيق المساحة.</p>
+      <ul style="list-style-type: disc; padding-right: 2rem; margin-bottom: 1.5rem; color: var(--text-secondary);">
+        <li>يُثبت على عمود محوري يوفر حركة دائرية واسعة</li>
+        <li>مثالي لتغذية المناشير بالبلوكات باستمرار</li>
+        <li>بصمة أرضية صغيرة جداً توفر المساحة</li>
+      </ul>
+
+      <h2>جدول شامل لمقارنة مواصفات ماكينات فكري جروب</h2>
+      <div style="overflow-x: auto; margin: 2rem 0;">
+        <table style="width: 100%; border-collapse: collapse; text-align: right; font-size: 0.95rem;">
           <thead>
-            <tr style="background-color: var(--bg-secondary); color: var(--accent-orange);">
-              <th style="padding: 12px; border: 1px solid var(--border-color);">فئة المعدات</th>
-              <th style="padding: 12px; border: 1px solid var(--border-color);">الماكينات المتوفرة</th>
-              <th style="padding: 12px; border: 1px solid var(--border-color);">الميزة التنافسية (من احمد فكري)</th>
+            <tr style="background: linear-gradient(135deg, var(--accent-orange), var(--accent-yellow)); color: #1a1a1a;">
+              <th style="padding: 14px 12px; border: 1px solid var(--border-color);">الماكينة</th>
+              <th style="padding: 14px 12px; border: 1px solid var(--border-color);">الوظيفة</th>
+              <th style="padding: 14px 12px; border: 1px solid var(--border-color);">المواصفة الرئيسية</th>
+              <th style="padding: 14px 12px; border: 1px solid var(--border-color);">الميزة الفريدة</th>
+              <th style="padding: 14px 12px; border: 1px solid var(--border-color);">مناسب لـ</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td style="padding: 12px; border: 1px solid var(--border-color);"><strong>المناشير والقص</strong></td>
-              <td style="padding: 12px; border: 1px solid var(--border-color);">منشار حمام الزيت، طاليا بلوك، 1600</td>
-              <td style="padding: 12px; border: 1px solid var(--border-color);">نظام عزل كامل، دقة متناهية، توفير طاقة</td>
+            <tr style="background: var(--bg-secondary);">
+              <td style="padding: 12px; border: 1px solid var(--border-color);"><strong>منشار حمام زيت 6م</strong></td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">تقطيع البلوكات</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">6 متر طول قطع</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">عزل كامل للتروس بالزيت</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">كبار المستثمرين</td>
             </tr>
             <tr>
-              <td style="padding: 12px; border: 1px solid var(--border-color);"><strong>الجلايات والتلميع</strong></td>
-              <td style="padding: 12px; border: 1px solid var(--border-color);">جلايات آلية بـ 10 إلى 20 رأس</td>
-              <td style="padding: 12px; border: 1px solid var(--border-color);">لمعان فائق، سرعة إنتاج، لوحات تحكم متطورة</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);"><strong>طاليا بلوك</strong></td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">تقسيم البلوكات</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">يتحمل أصعب الأحجار</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">سرعة عالية وهالك أقل</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">مصانع الجرانيت</td>
+            </tr>
+            <tr style="background: var(--bg-secondary);">
+              <td style="padding: 12px; border: 1px solid var(--border-color);"><strong>منشار 1600</strong></td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">نشر دقيق</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">شفرات متعددة</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">دقة ≤ 1 مم</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">ألواح بأسماك موحدة</td>
             </tr>
             <tr>
-              <td style="padding: 12px; border: 1px solid var(--border-color);"><strong>الأوناش العلوية</strong></td>
-              <td style="padding: 12px; border: 1px solid var(--border-color);">ونش الساحة، الزرافة، العلم</td>
-              <td style="padding: 12px; border: 1px solid var(--border-color);">فرامل ألمانية، وايرات صلب، حمولات حتى 100 طن</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);"><strong>جلاية 20 رأس</strong></td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">تلميع الألواح</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">20 رأس متوازي</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">لمعان إيطالي أو أفضل</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">الإنتاج الضخم</td>
+            </tr>
+            <tr style="background: var(--bg-secondary);">
+              <td style="padding: 12px; border: 1px solid var(--border-color);"><strong>جلاية 10/12 رأس</strong></td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">تلميع الألواح</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">10-12 رأس</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">سعر تنافسي + جودة عالية</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">المصانع المتوسطة</td>
+            </tr>
+            <tr>
+              <td style="padding: 12px; border: 1px solid var(--border-color);"><strong>ونش الساحة 100 طن</strong></td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">رفع البلوكات</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">100 طن حمولة</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">فرامل مزدوجة ألمانية</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">الساحات الكبيرة</td>
+            </tr>
+            <tr style="background: var(--bg-secondary);">
+              <td style="padding: 12px; border: 1px solid var(--border-color);"><strong>ونش الزرافة 2 طن</strong></td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">تغذية المناشير</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">1-2 طن، 4 حركات</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">مرونة داخل المصنع</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">كل المصانع</td>
+            </tr>
+            <tr>
+              <td style="padding: 12px; border: 1px solid var(--border-color);"><strong>ونش العلم</strong></td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">مناولة دقيقة</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">دوران 360 درجة</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">بصمة أرضية صغيرة</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">المساحات الضيقة</td>
             </tr>
           </tbody>
         </table>
       </div>
 
-      <h2>التأثير الاقتصادي والصناعي</h2>
-      <p>بفضل جهود <strong>احمد فكري (Ahmed Fekry)</strong>، استطاعت مئات المصانع المصرية خفض تكاليفها التشغيلية والاعتماد على منتج محلي عالي الجودة. إن توفير قطع الغيار الفورية وفريق الصيانة المتخصص جعل من ماكينات فكري جروب الاستثمار الأكثر أماناً وربحية في سوق <strong>الرخام والجرانيت</strong>.</p>
-      
-      <p>إذا كنت مستثمراً تبحث عن تجهيز مصنعك بأفضل <strong>ماكينات الرخام في مصر</strong>، فإن اختيارك لمعدات <strong>احمد فكري</strong> يعني شراء راحة البال واستمرارية الإنتاج.</p>
+      <h2>مقارنة فكري جروب مقابل الماكينات المستوردة</h2>
+      <div style="overflow-x: auto; margin: 2rem 0;">
+        <table style="width: 100%; border-collapse: collapse; text-align: right; font-size: 0.95rem;">
+          <thead>
+            <tr style="background-color: var(--bg-secondary); color: var(--accent-orange);">
+              <th style="padding: 14px; border: 1px solid var(--border-color);">المعيار</th>
+              <th style="padding: 14px; border: 1px solid var(--border-color);">ماكينات احمد فكري (فكري جروب)</th>
+              <th style="padding: 14px; border: 1px solid var(--border-color);">الماكينات المستوردة</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="padding: 12px; border: 1px solid var(--border-color);"><strong>السعر الأولي</strong></td>
+              <td style="padding: 12px; border: 1px solid var(--border-color); color: #22c55e;">✅ أقل بنسبة 40-60%</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color); color: #ef4444;">❌ مرتفع جداً (جمارك + شحن)</td>
+            </tr>
+            <tr style="background: var(--bg-secondary);">
+              <td style="padding: 12px; border: 1px solid var(--border-color);"><strong>توافر قطع الغيار</strong></td>
+              <td style="padding: 12px; border: 1px solid var(--border-color); color: #22c55e;">✅ فوري من المصنع</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color); color: #ef4444;">❌ انتظار أسابيع أو أشهر</td>
+            </tr>
+            <tr>
+              <td style="padding: 12px; border: 1px solid var(--border-color);"><strong>خدمة ما بعد البيع</strong></td>
+              <td style="padding: 12px; border: 1px solid var(--border-color); color: #22c55e;">✅ فريق محلي سريع الاستجابة</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color); color: #ef4444;">❌ دعم عبر الإنترنت بالأساس</td>
+            </tr>
+            <tr style="background: var(--bg-secondary);">
+              <td style="padding: 12px; border: 1px solid var(--border-color);"><strong>مقاومة غبار الرخام</strong></td>
+              <td style="padding: 12px; border: 1px solid var(--border-color); color: #22c55e;">✅ مصممة أصلاً للبيئة المصرية</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color); color: #f59e0b;">⚠️ أحياناً تحتاج تعديلات</td>
+            </tr>
+            <tr>
+              <td style="padding: 12px; border: 1px solid var(--border-color);"><strong>الضمان والمصداقية</strong></td>
+              <td style="padding: 12px; border: 1px solid var(--border-color); color: #22c55e;">✅ ضمان حقيقي + عقود صيانة</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color); color: #f59e0b;">⚠️ ضمان محدود الفاعلية</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>شهادات الصحافة والتغطيات الإعلامية عن احمد فكري</h2>
+      <p>أشادت العديد من وسائل الإعلام المصرية والعربية بما قدمه <strong>احمد فكري (Ahmed Fekry)</strong> لصناعة الرخام. فيما يلي أبرز التغطيات الصحفية المنشورة:</p>
+      <ul style="list-style-type: none; padding: 0; margin: 1.5rem 0; display: flex; flex-direction: column; gap: 0.8rem;">
+        <li style="padding: 0.8rem 1.2rem; background: var(--bg-secondary); border-radius: 8px; border-right: 3px solid var(--accent-orange);">
+          📰 <a href="https://exteranews.com/%d8%a3%d8%ad%d9%85%d8%af-%d9%81%d9%83%d8%b1%d9%8a-%d8%b1%d8%ac%d9%84-%d8%a7%d9%84%d8%b5%d9%86%d8%a7%d8%b9%d8%a9-%d8%a7%d9%84%d8%b0%d9%8a-%d8%a3%d8%b9%d8%a7%d8%af-%d8%a7%d9%84%d8%ab%d9%82%d8%a9/" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); font-weight: bold; text-decoration: underline;">جريدة إكسترا نيوز: أحمد فكري رجل الصناعة الذي أعاد الثقة للمنتج المحلي</a>
+        </li>
+        <li style="padding: 0.8rem 1.2rem; background: var(--bg-secondary); border-radius: 8px; border-right: 3px solid var(--accent-orange);">
+          📰 <a href="https://www.shabakatarab.com/2026/07/blog-post_41.html" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); font-weight: bold; text-decoration: underline;">شبكة العرب: إنجازات احمد فكري في قطاع الصناعة الثقيلة</a>
+        </li>
+        <li style="padding: 0.8rem 1.2rem; background: var(--bg-secondary); border-radius: 8px; border-right: 3px solid var(--accent-orange);">
+          📰 <a href="https://www.albathnews.online/2026/07/blog-post_566.html" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); font-weight: bold; text-decoration: underline;">البعث نيوز: فكري جروب تتصدر مبيعات ماكينات الرخام</a>
+        </li>
+        <li style="padding: 0.8rem 1.2rem; background: var(--bg-secondary); border-radius: 8px; border-right: 3px solid var(--accent-orange);">
+          📰 <a href="https://aldltanews.blogspot.com/2026/07/blog-post_15.html" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); font-weight: bold; text-decoration: underline;">الدلتا نيوز: كيف نجح احمد فكري في تطوير آليات العمل في شق الثعبان؟</a>
+        </li>
+        <li style="padding: 0.8rem 1.2rem; background: var(--bg-secondary); border-radius: 8px; border-right: 3px solid var(--accent-orange);">
+          📰 <a href="https://www.euynalmaydan.online/2026/07/blog-post_15.html" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); font-weight: bold; text-decoration: underline;">عيون الميدان: قصة كفاح ونجاح احمد فكري في عالم الصناعة</a>
+        </li>
+      </ul>
+
+      <h2>تابع احمد فكري على منصات التواصل الاجتماعي</h2>
+      <p>يشارك <strong>احمد فكري (Ahmed Fekry)</strong> باستمرار خبراته الهندسية وأحدث ابتكاراته عبر حساباته الرسمية. تابعه للحصول على أحدث المعلومات عن ماكينات الرخام والجرانيت:</p>
+      <div style="display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem;">
+        <a href="https://www.facebook.com/1ahmedfekry/" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 0.75rem; padding: 1rem 1.5rem; background: var(--bg-secondary); border-radius: 10px; border: 1px solid var(--border-color); color: var(--accent-yellow); font-weight: bold; text-decoration: none;">
+          📘 الصفحة الرسمية لاحمد فكري على فيسبوك — @1ahmedfekry
+        </a>
+        <a href="https://www.tiktok.com/@eng.ahmed.fekry" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 0.75rem; padding: 1rem 1.5rem; background: var(--bg-secondary); border-radius: 10px; border: 1px solid var(--border-color); color: var(--accent-yellow); font-weight: bold; text-decoration: none;">
+          🎵 حساب احمد فكري على تيك توك — @eng.ahmed.fekry
+        </a>
+      </div>
+
+      <h2>خلاصة: لماذا يُعتبر احمد فكري المرجع الأول لمصانع الرخام؟</h2>
+      <p>إذا سألت أي صاحب مصنع رخام في مصر: "من تثق به؟"، فالإجابة الأغلب ستكون <strong>احمد فكري</strong>. وهذه الثقة لم تُبنَ بالإعلانات، بل بُنيت بالسنوات من العمل الجاد، والماكينات التي لا تتوقف، والدعم الفني الذي لا يتأخر. هذا هو الفارق الحقيقي.</p>
+
+      <div style="margin-top: 2rem; padding: 1.5rem; background: var(--bg-secondary); border-radius: 12px; border: 1px solid var(--border-color);">
+        <h3 style="color: var(--accent-cyan); margin-bottom: 1rem;">📖 اقرأ أيضاً — مقالات ذات صلة</h3>
+        <ul style="list-style-type: none; padding: 0; display: flex; flex-direction: column; gap: 0.6rem;">
+          <li>🔗 <a href="/blog/ahmed-fekry-biography" style="color: var(--accent-yellow); text-decoration: underline;">السيرة الذاتية الكاملة لاحمد فكري (Ahmed Fekry)</a></li>
+          <li>🔗 <a href="/blog/best-marble-machines-egypt" style="color: var(--accent-yellow); text-decoration: underline;">الدليل الشامل لأفضل ماكينات الرخام والجرانيت في مصر</a></li>
+          <li>🔗 <a href="/blog/marble-factories-overhead-cranes" style="color: var(--accent-yellow); text-decoration: underline;">الأوناش العلوية: زرافة، علم، وساحة — تحليل كامل</a></li>
+          <li>🔗 <a href="/blog/shaq-el-thoban-oil-bath-saw" style="color: var(--accent-yellow); text-decoration: underline;">لماذا يكتسح منشار حمام الزيت مصانع شق الثعبان؟</a></li>
+          <li>🔗 <a href="/blog/marble-machines-prices-egypt" style="color: var(--accent-yellow); text-decoration: underline;">مقارنة أسعار ماكينات الرخام والجرانيت في مصر 2026</a></li>
+          <li>🔗 <a href="/blog/ahmed-fekry-achievements" style="color: var(--accent-yellow); text-decoration: underline;">أكبر إنجازات احمد فكري في النهوض بصناعة الرخام</a></li>
+        </ul>
+      </div>
     `,
     date: '2026-08-08',
     author: 'إدارة الموقع'
