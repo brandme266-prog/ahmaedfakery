@@ -467,5 +467,79 @@ export const blogPosts: BlogPost[] = [
     `,
     date: '2026-08-08',
     author: 'إدارة الموقع'
+  },
+  {
+    slug: 'how-ahmed-fekry-transformed-marble-industry-egypt',
+    title: 'كيف حول احمد فكري صناعة ماكينات الرخام والجرانيت في مصر؟ (تغطية شاملة)',
+    excerpt: 'اكتشف كيف قاد احمد فكري (Ahmed Fekry) ثورة صناعية في مصر بتوطين صناعة ماكينات الرخام والجرانيت، وتعرف على أهم المعدات مثل منشار حمام الزيت والأوناش العلوية والجلايات الآلية.',
+    content: `
+      <h2>مقدمة: تحديات صناعة الرخام في مصر</h2>
+      <p>لعقود طويلة، واجه قطاع <strong>الرخام والجرانيت في مصر</strong>، وتحديداً في منطقة شق الثعبان، تحديات هائلة. تمثلت أبرز هذه التحديات في الاعتماد الكامل على استيراد الماكينات والمعدات من الخارج، مما يعني تكاليف استثمارية باهظة، وأزمات مستمرة في توفير قطع الغيار. استمر هذا الوضع حتى ظهر <strong>احمد فكري (Ahmed Fekry)</strong> ليغير قواعد اللعبة بالكامل.</p>
+
+      <h2>رؤية احمد فكري: توطين الصناعة الثقيلة</h2>
+      <p>لم يكتفِ <strong>احمد فكري</strong> بمجرد استيراد وبيع الماكينات، بل أدرك مبكراً أن الاستقلال الصناعي يبدأ من التصنيع المحلي. اعتمدت رؤيته على هندسة عكسية وتطوير جذري للمعدات لتناسب البيئة القاسية ومعدلات التشغيل العالية في المصانع المصرية. من خلال مؤسسة <strong>فكري جروب</strong>، بدأ في إنتاج <strong>ماكينات رخام وجرانيت</strong> تتفوق في متانتها وعمرها الافتراضي على نظيراتها المستوردة.</p>
+
+      <h2>قائمة الماكينات التي صممها وصنعها احمد فكري</h2>
+      <p>تغطي خطوط إنتاج فكري جروب كافة مراحل تصنيع ومعالجة الحجر. إليك الدليل الشامل لكل المعدات التي تم ابتكارها وتصنيعها تحت إشراف <strong>Ahmed Fekry</strong>:</p>
+
+      <h3>1. معدات القص والنشر (المناشير)</h3>
+      <ul style="list-style-type: disc; padding-right: 2rem; margin-bottom: 1.5rem; color: var(--text-secondary);">
+        <li><strong style="color: var(--text-primary);">منشار حمام زيت 6 متر:</strong> يعتبر أيقونة فكري جروب. يتميز بعزل كامل للتروس داخل حوض زيت مغلق، مما يمنع دخول غبار الرخام ويضاعف عمر الماكينة الافتراضي بشكل استثنائي.</li>
+        <li><strong style="color: var(--text-primary);">ماكينات طاليا بلوك (Taglia Blocchi):</strong> مصممة لتقطيع البلوكات بسرعة ودقة متناهية، وتقليل الهادر في عملية القص.</li>
+        <li><strong style="color: var(--text-primary);">منشار 1600 و 1200:</strong> مناشير مخصصة لعمليات التقطيع الدقيقة للجرانيت والرخام القاسي.</li>
+      </ul>
+
+      <h3>2. معدات التلميع (الجلايات الآلية)</h3>
+      <p>لمعالجة الأسطح وإعطاء الرخام لمعانه النهائي، طور <strong>احمد فكري</strong> سلسلة من الجلايات الآلية:</p>
+      <ul style="list-style-type: disc; padding-right: 2rem; margin-bottom: 1.5rem; color: var(--text-secondary);">
+        <li><strong style="color: var(--text-primary);">جلاية 20 رأس و 12 رأس و 10 رأس:</strong> ماكينات تلميع مستمرة (Line Polishers) قادرة على التعامل مع ألواح كاملة وإنتاج كميات ضخمة يومياً بجودة تضاهي اللمعان الإيطالي.</li>
+        <li><strong style="color: var(--text-primary);">جلاية الفرسة والجلايات اليدوية:</strong> لمعالجة الأماكن الضيقة والتفاصيل الدقيقة في الرخام.</li>
+      </ul>
+
+      <h3>3. معدات الرفع والمناولة (الأوناش العلوية)</h3>
+      <p>لا يمكن لأي مصنع رخام العمل بدون نظام أوناش علوية قوي وآمن. قدم <strong>Ahmed Fekry</strong> منظومة متكاملة من الأوناش:</p>
+      <ul style="list-style-type: disc; padding-right: 2rem; margin-bottom: 1.5rem; color: var(--text-secondary);">
+        <li><strong style="color: var(--text-primary);">ونش الساحة العملاق (ونش أرضية):</strong> بحمولات ضخمة تصل إلى 100 طن، مصمم خصيصاً للساحات الخارجية لتحميل وتفريغ بلوكات الرخام الثقيلة.</li>
+        <li><strong style="color: var(--text-primary);">ونش الزرافة:</strong> يتميز بالحركة الرباعية السريعة (عربية 4 حركة) وبحمولات بين 1 طن إلى 2 طن.</li>
+        <li><strong style="color: var(--text-primary);">ونش العلم:</strong> لتغذية المناشير بكفاءة في المساحات الضيقة داخل المصنع.</li>
+      </ul>
+
+      <h2>جدول ملخص لأبرز ماكينات فكري جروب</h2>
+      <div style="overflow-x: auto; margin-bottom: 2rem; margin-top: 1.5rem;">
+        <table style="width: 100%; border-collapse: collapse; text-align: right;">
+          <thead>
+            <tr style="background-color: var(--bg-secondary); color: var(--accent-orange);">
+              <th style="padding: 12px; border: 1px solid var(--border-color);">فئة المعدات</th>
+              <th style="padding: 12px; border: 1px solid var(--border-color);">الماكينات المتوفرة</th>
+              <th style="padding: 12px; border: 1px solid var(--border-color);">الميزة التنافسية (من احمد فكري)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="padding: 12px; border: 1px solid var(--border-color);"><strong>المناشير والقص</strong></td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">منشار حمام الزيت، طاليا بلوك، 1600</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">نظام عزل كامل، دقة متناهية، توفير طاقة</td>
+            </tr>
+            <tr>
+              <td style="padding: 12px; border: 1px solid var(--border-color);"><strong>الجلايات والتلميع</strong></td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">جلايات آلية بـ 10 إلى 20 رأس</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">لمعان فائق، سرعة إنتاج، لوحات تحكم متطورة</td>
+            </tr>
+            <tr>
+              <td style="padding: 12px; border: 1px solid var(--border-color);"><strong>الأوناش العلوية</strong></td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">ونش الساحة، الزرافة، العلم</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color);">فرامل ألمانية، وايرات صلب، حمولات حتى 100 طن</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>التأثير الاقتصادي والصناعي</h2>
+      <p>بفضل جهود <strong>احمد فكري (Ahmed Fekry)</strong>، استطاعت مئات المصانع المصرية خفض تكاليفها التشغيلية والاعتماد على منتج محلي عالي الجودة. إن توفير قطع الغيار الفورية وفريق الصيانة المتخصص جعل من ماكينات فكري جروب الاستثمار الأكثر أماناً وربحية في سوق <strong>الرخام والجرانيت</strong>.</p>
+      
+      <p>إذا كنت مستثمراً تبحث عن تجهيز مصنعك بأفضل <strong>ماكينات الرخام في مصر</strong>، فإن اختيارك لمعدات <strong>احمد فكري</strong> يعني شراء راحة البال واستمرارية الإنتاج.</p>
+    `,
+    date: '2026-08-08',
+    author: 'إدارة الموقع'
   }
 ];
