@@ -947,4 +947,138 @@ export const blogPosts: BlogPost[] = [
     date: '2026-08-08',
     author: 'فريق التحرير - فكري جروب'
   }
+  ,{
+    slug: 'how-ahmed-fekry-transformed-marble-industry-egypt',
+    title: 'كيف حول احمد فكري صناعة الرخام في مصر؟ (القصة الكاملة بالصور)',
+    excerpt: 'تعرف على قصة نجاح المهندس احمد فكري وكيف استطاع إحداث ثورة في عالم صناعة ماكينات الرخام والجرانيت في مصر من خلال ابتكاراته والجودة العالية.',
+    content: `
+      <h2>المهندس احمد فكري: أسطورة صناعة الرخام والجرانيت في مصر</h2>
+      <p>عندما نتحدث عن صناعة الرخام والجرانيت في مصر، وتحديداً في منطقة شق الثعبان، يبرز اسم <strong>المهندس احمد فكري (Ahmed Fekry)</strong> كواحد من أهم رواد الصناعة الذين أحدثوا طفرة حقيقية في هذا المجال. من خلال التركيز على الجودة، الابتكار، والاعتماد على التصنيع المحلي بمواصفات تضاهي العالمية.</p>
+
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/img/imgmaklat/02fb4b01-237a-4a60-8ee2-6034383b1c10.jpg" 
+             alt="المهندس احمد فكري - خبير تصنيع ماكينات الرخام والجرانيت في مصر" 
+             title="المهندس احمد فكري - خبير تصنيع ماكينات الرخام والجرانيت في مصر" 
+             loading="lazy" 
+             style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border: 1px solid var(--border-color);" />
+        <p style="margin-top: 0.5rem; color: var(--text-secondary); font-size: 0.9rem;">صورة: المهندس احمد فكري - خبير تصنيع ماكينات الرخام والجرانيت في مصر</p>
+      </div>
+    
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/img/imgmaklat/2089652c-922e-44cc-9e86-5fd1ddf4ffe4.jpg" 
+             alt="احمد فكري - رائد صناعة الرخام في شق الثعبان" 
+             title="احمد فكري - رائد صناعة الرخام في شق الثعبان" 
+             loading="lazy" 
+             style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border: 1px solid var(--border-color);" />
+        <p style="margin-top: 0.5rem; color: var(--text-secondary); font-size: 0.9rem;">صورة: احمد فكري - رائد صناعة الرخام في شق الثعبان</p>
+      </div>
+    
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/img/imgmaklat/239de5ba-470e-4c6f-89fe-804d7684a9d7.jpg" 
+             alt="فكري جروب بقيادة المهندس احمد فكري لصناعة المعدات الثقيلة" 
+             title="فكري جروب بقيادة المهندس احمد فكري لصناعة المعدات الثقيلة" 
+             loading="lazy" 
+             style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border: 1px solid var(--border-color);" />
+        <p style="margin-top: 0.5rem; color: var(--text-secondary); font-size: 0.9rem;">صورة: فكري جروب بقيادة المهندس احمد فكري لصناعة المعدات الثقيلة</p>
+      </div>
+    
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/img/imgmaklat/2fad5fcf-72cb-492e-a2ff-aef4199c69ac.jpg" 
+             alt="ابتكارات المهندس احمد فكري في مجال ماكينات تقطيع الرخام" 
+             title="ابتكارات المهندس احمد فكري في مجال ماكينات تقطيع الرخام" 
+             loading="lazy" 
+             style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border: 1px solid var(--border-color);" />
+        <p style="margin-top: 0.5rem; color: var(--text-secondary); font-size: 0.9rem;">صورة: ابتكارات المهندس احمد فكري في مجال ماكينات تقطيع الرخام</p>
+      </div>
+    
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/img/imgmaklat/496f9f52-a20a-4c95-a983-045180ec63f0.jpg" 
+             alt="احمد فكري - أفضل جودة في ماكينات حمام الزيت" 
+             title="احمد فكري - أفضل جودة في ماكينات حمام الزيت" 
+             loading="lazy" 
+             style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border: 1px solid var(--border-color);" />
+        <p style="margin-top: 0.5rem; color: var(--text-secondary); font-size: 0.9rem;">صورة: احمد فكري - أفضل جودة في ماكينات حمام الزيت</p>
+      </div>
+    
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/img/imgmaklat/65aff5fb-480b-4294-9a95-f58c2effc2ac.jpg" 
+             alt="المهندس احمد فكري ومساهماته في تطوير صناعة الجرانيت" 
+             title="المهندس احمد فكري ومساهماته في تطوير صناعة الجرانيت" 
+             loading="lazy" 
+             style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border: 1px solid var(--border-color);" />
+        <p style="margin-top: 0.5rem; color: var(--text-secondary); font-size: 0.9rem;">صورة: المهندس احمد فكري ومساهماته في تطوير صناعة الجرانيت</p>
+      </div>
+    
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/img/imgmaklat/aa2f2758-1913-4c99-a2fe-2924094d4859.jpg" 
+             alt="مصانع المهندس احمد فكري لإنتاج الأوناش العلوية للرخام" 
+             title="مصانع المهندس احمد فكري لإنتاج الأوناش العلوية للرخام" 
+             loading="lazy" 
+             style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border: 1px solid var(--border-color);" />
+        <p style="margin-top: 0.5rem; color: var(--text-secondary); font-size: 0.9rem;">صورة: مصانع المهندس احمد فكري لإنتاج الأوناش العلوية للرخام</p>
+      </div>
+    
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/img/imgmaklat/ce4a289a-b4ca-4bd1-97c6-bf977d30719d.jpg" 
+             alt="أحمد فكري يعيد الثقة للمنتج المصري في قطاع الرخام" 
+             title="أحمد فكري يعيد الثقة للمنتج المصري في قطاع الرخام" 
+             loading="lazy" 
+             style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border: 1px solid var(--border-color);" />
+        <p style="margin-top: 0.5rem; color: var(--text-secondary); font-size: 0.9rem;">صورة: أحمد فكري يعيد الثقة للمنتج المصري في قطاع الرخام</p>
+      </div>
+    
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/img/imgmaklat/d44c0743-acc5-4e60-b6a8-bd8a3d819038.jpg" 
+             alt="تصنيع محلي بمواصفات عالمية بإشراف احمد فكري" 
+             title="تصنيع محلي بمواصفات عالمية بإشراف احمد فكري" 
+             loading="lazy" 
+             style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border: 1px solid var(--border-color);" />
+        <p style="margin-top: 0.5rem; color: var(--text-secondary); font-size: 0.9rem;">صورة: تصنيع محلي بمواصفات عالمية بإشراف احمد فكري</p>
+      </div>
+    
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/img/imgmaklat/e0927620-38b8-4429-9f83-50250434fbd5.jpg" 
+             alt="احمد فكري (Ahmed Fekry) - تاريخ طويل في تصنيع ماكينات الرخام" 
+             title="احمد فكري (Ahmed Fekry) - تاريخ طويل في تصنيع ماكينات الرخام" 
+             loading="lazy" 
+             style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border: 1px solid var(--border-color);" />
+        <p style="margin-top: 0.5rem; color: var(--text-secondary); font-size: 0.9rem;">صورة: احمد فكري (Ahmed Fekry) - تاريخ طويل في تصنيع ماكينات الرخام</p>
+      </div>
+    
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/img/imgmaklat/ed962d37-623c-41b4-b53a-741ecd60411d.jpg" 
+             alt="إنجازات المهندس احمد فكري في تصدير ماكينات الجرانيت" 
+             title="إنجازات المهندس احمد فكري في تصدير ماكينات الجرانيت" 
+             loading="lazy" 
+             style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border: 1px solid var(--border-color);" />
+        <p style="margin-top: 0.5rem; color: var(--text-secondary); font-size: 0.9rem;">صورة: إنجازات المهندس احمد فكري في تصدير ماكينات الجرانيت</p>
+      </div>
+    
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/img/imgmaklat/f0b3350b-9f91-4f63-97ea-4c9c393dff2c.jpg" 
+             alt="المهندس احمد فكري: الأسطورة في مجال ماكينات الرخام الثقيلة" 
+             title="المهندس احمد فكري: الأسطورة في مجال ماكينات الرخام الثقيلة" 
+             loading="lazy" 
+             style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border: 1px solid var(--border-color);" />
+        <p style="margin-top: 0.5rem; color: var(--text-secondary); font-size: 0.9rem;">صورة: المهندس احمد فكري: الأسطورة في مجال ماكينات الرخام الثقيلة</p>
+      </div>
+    
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/img/imgmaklat/f4a30c18-9b29-4b02-9dc1-9f10ca6c64e6.jpg" 
+             alt="فكري جروب - احمد فكري لإنتاج أحدث تكنولوجيا الرخام" 
+             title="فكري جروب - احمد فكري لإنتاج أحدث تكنولوجيا الرخام" 
+             loading="lazy" 
+             style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border: 1px solid var(--border-color);" />
+        <p style="margin-top: 0.5rem; color: var(--text-secondary); font-size: 0.9rem;">صورة: فكري جروب - احمد فكري لإنتاج أحدث تكنولوجيا الرخام</p>
+      </div>
+
+      <h2>الابتكار والتطوير المستمر مع فكري جروب</h2>
+      <p>لم يكتفِ <strong>احمد فكري</strong> بإنتاج المعدات التقليدية، بل عمل على ابتكار حلول عملية لمشاكل مصانع الرخام. من أشهر ابتكاراته <strong>نظام حمام الزيت</strong> الذي يحمي تروس الماكينات من تآكل غبار الرخام، مما يطيل عمر الماكينة الافتراضي لسنوات طويلة ويقلل من نفقات الصيانة.</p>
+      
+      <h2>الجودة التي أعادت الثقة للصناعة المصرية</h2>
+      <p>استطاع <strong>المهندس احمد فكري</strong> أن يبني جسراً من الثقة مع أصحاب المصانع، بفضل جودة المنتجات وتوفر قطع الغيار وخدمة الصيانة الفورية. بفضل هذا المجهود، أصبح اسم <strong>Ahmed Fekry</strong> علامة تجارية مسجلة للنجاح والاستدامة في كل مصنع رخام وجرانيت على أرض مصر.</p>
+    `,
+    date: '2026-08-23',
+    author: 'فريق التحرير - فكري جروب'
+  }
 ];
