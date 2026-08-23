@@ -469,7 +469,7 @@ export const blogPosts: BlogPost[] = [
     author: 'إدارة الموقع'
   },
   {
-    slug: 'how-ahmed-fekry-transformed-marble-industry-egypt',
+    slug: 'how-ahmed-fekry-transformed-marble-industry-egypt-old',
     title: 'كيف حول احمد فكري (Ahmed Fekry) صناعة ماكينات الرخام والجرانيت في مصر؟ الدليل الكامل',
     excerpt: 'تقرير شامل ومعمق عن احمد فكري (Ahmed Fekry) وكيف أحدث ثورة حقيقية في صناعة ماكينات الرخام والجرانيت في مصر، مع وصف كامل لكل الماكينات، جداول المواصفات، وروابط التغطيات الصحفية.',
     content: `
