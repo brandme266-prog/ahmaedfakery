@@ -35,7 +35,7 @@ export default function Home() {
 
             {/* Left Image Graphic */}
             <div className="fade-in" style={{ flex: '1 1 300px', position: 'relative', animationDelay: '0.2s', width: '100%', minHeight: 'clamp(300px, 40vw, 500px)', background: 'var(--bg-secondary)', borderRadius: 'var(--border-radius-lg)', boxShadow: 'var(--shadow-glow)', display: 'flex', overflow: 'hidden', border: '1px solid var(--border-color)' }}>
-              <Image src="/img/WhatsApp-Image-2025-10-20-at-10.58.32-AM.jpeg" alt="صناعة ماكينات الرخام والجرانيت الثقيلة في مصر بإشراف احمد فكري" fill style={{ objectFit: 'cover' }} priority />
+              <Image src="/img/WhatsApp-Image-2025-10-20-at-10.58.32-AM.jpeg" alt="صناعة ماكينات الرخام والجرانيت الثقيلة في مصر بإشراف احمد فكري" fill style={{ objectFit: 'cover' }} priority sizes="(max-width: 768px) 100vw, 50vw" />
               <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top right, rgba(0,0,0,0.1), transparent)' }} />
             </div>
 
@@ -57,8 +57,8 @@ export default function Home() {
       <section id="about" className="section" style={{ background: 'var(--bg-primary)' }}>
         <div className="container">
           <div className="glass-panel" style={{ padding: '3rem', display: 'flex', flexDirection: 'column', gap: '1.5rem', alignItems: 'center', textAlign: 'center' }}>
-            <div style={{ position: 'relative', width: 'clamp(150px, 30vw, 250px)', height: 'clamp(150px, 30vw, 250px)', borderRadius: '50%', overflow: 'hidden', border: '4px solid var(--accent-yellow)', marginBottom: '1rem' }}>
-              <Image src="/img/500310758_548201025008210_6078741677372742104_n.jpg" alt="احمد فكري - Ahmed Fekry - خبير ومصنع ماكينات الرخام والجرانيت في الشرق الأوسط" fill style={{ objectFit: 'cover' }} />
+            <div style={{ position: 'relative', width: 'clamp(150px, 30vw, 250px)', height: 'clamp(150px, 30vw, 250px)', borderRadius: '50%', overflow: 'hidden', border: '4px solid var(--accent-yellow)', marginBottom: '1rem', background: '#eee' }}>
+              <Image src="/img/500310758_548201025008210_6078741677372742104_n.jpg" alt="احمد فكري - Ahmed Fekry - خبير ومصنع ماكينات الرخام والجرانيت في الشرق الأوسط" fill style={{ objectFit: 'cover' }} sizes="250px" />
             </div>
             <h2 style={{ fontSize: 'clamp(1.8rem, 4vw, 2.5rem)', color: 'var(--accent-cyan)' }}>عن المهندس احمد فكري (Ahmed Fekry)</h2>
             <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem', maxWidth: '800px', lineHeight: '1.8' }}>
@@ -87,8 +87,8 @@ export default function Home() {
             {productsData.map((product) => (
               <div key={product.slug} className="glass-panel product-card" style={{ padding: '1.5rem', transition: 'transform 0.3s ease', display: 'flex', flexDirection: 'column', height: '100%' }}>
                 <Link href={`/products/${product.slug}`} style={{ display: 'block', flexGrow: 1 }}>
-                  <div style={{ position: 'relative', height: '250px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', overflow: 'hidden' }}>
-                  <Image src={product.image || (product.images ? product.images[0] : '')} alt={`${product.title} - تصنيع احمد فكري (Ahmed Fekry)`} fill style={{ objectFit: 'cover' }} />
+                  <div style={{ position: 'relative', height: '250px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', overflow: 'hidden', background: '#eee' }}>
+                  <Image src={product.image || (product.images ? product.images[0] : '')} alt={`${product.title} - تصنيع احمد فكري (Ahmed Fekry)`} fill style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" loading="lazy" />
                 </div>
                   <h3 style={{ fontSize: '1.3rem', color: 'var(--accent-yellow)', marginBottom: '0.5rem' }}>{product.title}</h3>
                   <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>{product.shortDescription}</p>
@@ -219,8 +219,8 @@ export default function Home() {
               "890f2ce8-ed67-4394-9f3b-f23bb9f409a7.jpg",
               "f5158297-6107-4198-83ab-401dbd3555e1.jpg"
             ].map((img, index) => (
-              <div key={index} className="fade-in" style={{ position: 'relative', height: '250px', borderRadius: '12px', overflow: 'hidden', boxShadow: 'var(--shadow-sm)', border: '1px solid var(--border-color)', animationDelay: `${index * 0.1}s` }}>
-                <Image src={`/img/${img}`} alt={`احمد فكري - Ahmed Fekry - صورة ${index + 1}`} title={`احمد فكري - Ahmed Fekry`} fill style={{ objectFit: 'cover' }} />
+              <div key={index} className="fade-in" style={{ position: 'relative', height: '250px', borderRadius: '12px', overflow: 'hidden', boxShadow: 'var(--shadow-sm)', border: '1px solid var(--border-color)', animationDelay: `${index * 0.1}s`, background: '#eee' }}>
+                <Image src={`/img/${img}`} alt={`احمد فكري - Ahmed Fekry - صورة ${index + 1}`} title={`احمد فكري - Ahmed Fekry`} fill style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" loading="lazy" />
               </div>
             ))}
           </div>
