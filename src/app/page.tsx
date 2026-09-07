@@ -35,7 +35,7 @@ export default function Home() {
 
             {/* Left Image Graphic */}
             <div className="fade-in" style={{ flex: '1 1 300px', position: 'relative', animationDelay: '0.2s', width: '100%', minHeight: 'clamp(300px, 40vw, 500px)', background: 'var(--bg-secondary)', borderRadius: 'var(--border-radius-lg)', boxShadow: 'var(--shadow-glow)', display: 'flex', overflow: 'hidden', border: '1px solid var(--border-color)' }}>
-              <Image src="/img/WhatsApp-Image-2025-10-20-at-10.58.32-AM.jpeg" alt="صناعة ماكينات الرخام والجرانيت الثقيلة في مصر بإشراف المهندس احمد فكري" fill style={{ objectFit: 'cover' }} priority />
+              <Image src="/img/WhatsApp-Image-2025-10-20-at-10.58.32-AM.jpeg" alt="صناعة ماكينات الرخام والجرانيت الثقيلة في مصر بإشراف احمد فكري" fill style={{ objectFit: 'cover' }} priority />
               <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top right, rgba(0,0,0,0.1), transparent)' }} />
             </div>
 
@@ -52,12 +52,36 @@ export default function Home() {
         }} />
       </section>
 
+      {/* Gallery Section */}
+      <section className="section" style={{ background: 'var(--bg-primary)' }}>
+        <div className="container">
+          <h2 style={{ textAlign: 'center', fontSize: 'clamp(1.8rem, 4vw, 2.5rem)', marginBottom: '2rem', color: 'var(--accent-yellow)' }}>
+            معرض صور المهندس احمد فكري (Ahmed Fekry)
+          </h2>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem' }}>
+            {[
+              "0a8087b7-4a05-4d3f-b631-8e4465008ea0.jpg",
+              "1590173d-de4c-45d4-b286-50a94edafbbc.jpg",
+              "272de5f6-eff9-4d17-ad42-0c146d13153e.jpg",
+              "2d646e48-140d-485d-845b-f03aa77c4f8e.jpg",
+              "430122a7-7476-4268-aa84-3af6d0656349.jpg",
+              "6be95946-e620-4360-bb33-40301199a3a2.jpg",
+              "890f2ce8-ed67-4394-9f3b-f23bb9f409a7.jpg",
+              "f5158297-6107-4198-83ab-401dbd3555e1.jpg"
+            ].map((img, index) => (
+              <div key={index} className="fade-in" style={{ position: 'relative', height: '250px', borderRadius: '12px', overflow: 'hidden', boxShadow: 'var(--shadow-sm)', border: '1px solid var(--border-color)', animationDelay: `${index * 0.1}s` }}>
+                <Image src={`/img/${img}`} alt={`احمد فكري - Ahmed Fekry - صورة ${index + 1}`} title={`احمد فكري - Ahmed Fekry`} fill style={{ objectFit: 'cover' }} />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
       {/* About Section */}
       <section id="about" className="section" style={{ background: 'var(--bg-primary)' }}>
         <div className="container">
           <div className="glass-panel" style={{ padding: '3rem', display: 'flex', flexDirection: 'column', gap: '1.5rem', alignItems: 'center', textAlign: 'center' }}>
             <div style={{ position: 'relative', width: 'clamp(150px, 30vw, 250px)', height: 'clamp(150px, 30vw, 250px)', borderRadius: '50%', overflow: 'hidden', border: '4px solid var(--accent-yellow)', marginBottom: '1rem' }}>
-              <Image src="/img/500310758_548201025008210_6078741677372742104_n.jpg" alt="المهندس احمد فكري - Ahmed Fekry - خبير ومصنع ماكينات الرخام والجرانيت في الشرق الأوسط" fill style={{ objectFit: 'cover' }} />
+              <Image src="/img/500310758_548201025008210_6078741677372742104_n.jpg" alt="احمد فكري - Ahmed Fekry - خبير ومصنع ماكينات الرخام والجرانيت في الشرق الأوسط" fill style={{ objectFit: 'cover' }} />
             </div>
             <h2 style={{ fontSize: 'clamp(1.8rem, 4vw, 2.5rem)', color: 'var(--accent-cyan)' }}>عن المهندس احمد فكري (Ahmed Fekry)</h2>
             <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem', maxWidth: '800px', lineHeight: '1.8' }}>
@@ -87,7 +111,7 @@ export default function Home() {
               <div key={product.slug} className="glass-panel product-card" style={{ padding: '1.5rem', transition: 'transform 0.3s ease', display: 'flex', flexDirection: 'column', height: '100%' }}>
                 <Link href={`/products/${product.slug}`} style={{ display: 'block', flexGrow: 1 }}>
                   <div style={{ position: 'relative', height: '250px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', overflow: 'hidden' }}>
-                  <Image src={product.image || (product.images ? product.images[0] : '')} alt={`${product.title} - تصنيع المهندس احمد فكري (Ahmed Fekry)`} fill style={{ objectFit: 'cover' }} />
+                  <Image src={product.image || (product.images ? product.images[0] : '')} alt={`${product.title} - تصنيع احمد فكري (Ahmed Fekry)`} fill style={{ objectFit: 'cover' }} />
                 </div>
                   <h3 style={{ fontSize: '1.3rem', color: 'var(--accent-yellow)', marginBottom: '0.5rem' }}>{product.title}</h3>
                   <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>{product.shortDescription}</p>
