@@ -60,8 +60,11 @@ export default function RootLayout({
           <div className="navbar-inner">
             {/* Logo & Navigation Links (Right side) */}
             <div className="nav-right" style={{ display: 'flex', alignItems: 'center', gap: '3rem' }}>
-              <Link href="/" style={{ display: 'flex', alignItems: 'center' }}>
-                <Image src="/img/logo.png" alt="لوجو فكري جروب لصناعة ماكينات الرخام والجرانيت - المهندس احمد فكري" width={180} height={60} className="nav-logo" style={{ objectFit: 'contain' }} priority />
+              <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
+                <div style={{ position: 'relative', width: '50px', height: '50px', borderRadius: '50%', overflow: 'hidden', border: '2px solid var(--accent-yellow)', boxShadow: '0 0 10px rgba(217,119,6,0.3)' }}>
+                  <Image src="/img/ahmed-fekry-desk.jpeg" alt="احمد فكري - Ahmed Fekry" fill style={{ objectFit: 'cover' }} priority sizes="50px" />
+                </div>
+                <span style={{ fontSize: '1.3rem', fontWeight: 'bold', color: 'var(--text-primary)', letterSpacing: '0.5px' }}>احمد فكري</span>
               </Link>
               
               <div className="nav-links-container" style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
