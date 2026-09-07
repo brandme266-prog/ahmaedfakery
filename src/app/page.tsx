@@ -270,6 +270,7 @@ export default function Home() {
             {/* Embedded Google Map */}
             <div style={{ marginTop: '3rem', borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border-color)', boxShadow: 'var(--shadow-sm)', height: '350px' }}>
               <iframe 
+                title="موقع فكري جروب على خريطة جوجل"
                 src="https://maps.google.com/maps?q=298R%2BX3P&output=embed" 
                 width="100%" 
                 height="100%" 
