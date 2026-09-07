@@ -20,9 +20,9 @@ export const metadata: Metadata = {
     type: 'website',
   },
   icons: {
-    icon: '/img/logo.png',
-    shortcut: '/img/logo.png',
-    apple: '/img/logo.png',
+    icon: '/img/ahmed-fekry-desk.jpeg',
+    shortcut: '/img/ahmed-fekry-desk.jpeg',
+    apple: '/img/ahmed-fekry-desk.jpeg',
   },
 }
 
