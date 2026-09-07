@@ -52,30 +52,7 @@ export default function Home() {
         }} />
       </section>
 
-      {/* Gallery Section */}
-      <section className="section" style={{ background: 'var(--bg-primary)' }}>
-        <div className="container">
-          <h2 style={{ textAlign: 'center', fontSize: 'clamp(1.8rem, 4vw, 2.5rem)', marginBottom: '2rem', color: 'var(--accent-yellow)' }}>
-            معرض صور المهندس احمد فكري (Ahmed Fekry)
-          </h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem' }}>
-            {[
-              "0a8087b7-4a05-4d3f-b631-8e4465008ea0.jpg",
-              "1590173d-de4c-45d4-b286-50a94edafbbc.jpg",
-              "272de5f6-eff9-4d17-ad42-0c146d13153e.jpg",
-              "2d646e48-140d-485d-845b-f03aa77c4f8e.jpg",
-              "430122a7-7476-4268-aa84-3af6d0656349.jpg",
-              "6be95946-e620-4360-bb33-40301199a3a2.jpg",
-              "890f2ce8-ed67-4394-9f3b-f23bb9f409a7.jpg",
-              "f5158297-6107-4198-83ab-401dbd3555e1.jpg"
-            ].map((img, index) => (
-              <div key={index} className="fade-in" style={{ position: 'relative', height: '250px', borderRadius: '12px', overflow: 'hidden', boxShadow: 'var(--shadow-sm)', border: '1px solid var(--border-color)', animationDelay: `${index * 0.1}s` }}>
-                <Image src={`/img/${img}`} alt={`احمد فكري - Ahmed Fekry - صورة ${index + 1}`} title={`احمد فكري - Ahmed Fekry`} fill style={{ objectFit: 'cover' }} />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+
       {/* About Section */}
       <section id="about" className="section" style={{ background: 'var(--bg-primary)' }}>
         <div className="container">
@@ -223,6 +200,31 @@ export default function Home() {
             })
           }}
         />
+      </section>
+
+      {/* Gallery Section */}
+      <section className="section" style={{ background: 'var(--bg-primary)' }}>
+        <div className="container">
+          <h2 style={{ textAlign: 'center', fontSize: 'clamp(1.8rem, 4vw, 2.5rem)', marginBottom: '2rem', color: 'var(--accent-yellow)' }}>
+            معرض صور المهندس احمد فكري (Ahmed Fekry)
+          </h2>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem' }}>
+            {[
+              "0a8087b7-4a05-4d3f-b631-8e4465008ea0.jpg",
+              "1590173d-de4c-45d4-b286-50a94edafbbc.jpg",
+              "272de5f6-eff9-4d17-ad42-0c146d13153e.jpg",
+              "2d646e48-140d-485d-845b-f03aa77c4f8e.jpg",
+              "430122a7-7476-4268-aa84-3af6d0656349.jpg",
+              "6be95946-e620-4360-bb33-40301199a3a2.jpg",
+              "890f2ce8-ed67-4394-9f3b-f23bb9f409a7.jpg",
+              "f5158297-6107-4198-83ab-401dbd3555e1.jpg"
+            ].map((img, index) => (
+              <div key={index} className="fade-in" style={{ position: 'relative', height: '250px', borderRadius: '12px', overflow: 'hidden', boxShadow: 'var(--shadow-sm)', border: '1px solid var(--border-color)', animationDelay: `${index * 0.1}s` }}>
+                <Image src={`/img/${img}`} alt={`احمد فكري - Ahmed Fekry - صورة ${index + 1}`} title={`احمد فكري - Ahmed Fekry`} fill style={{ objectFit: 'cover' }} />
+              </div>
+            ))}
+          </div>
+        </div>
       </section>
 
       {/* Contact Section */}
