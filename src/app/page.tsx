@@ -35,7 +35,7 @@ export default function Home() {
 
             {/* Left Image Graphic */}
             <div className="fade-in" style={{ flex: '1 1 300px', position: 'relative', animationDelay: '0.2s', width: '100%', minHeight: 'clamp(300px, 40vw, 500px)', background: 'var(--bg-secondary)', borderRadius: 'var(--border-radius-lg)', boxShadow: 'var(--shadow-glow)', display: 'flex', overflow: 'hidden', border: '1px solid var(--border-color)' }}>
-              <Image src="/img/WhatsApp-Image-2025-10-20-at-10.58.32-AM.jpeg" alt="صناعة ماكينات الرخام والجرانيت الثقيلة في مصر بإشراف احمد فكري" fill style={{ objectFit: 'cover' }} priority sizes="(max-width: 768px) 100vw, 50vw" />
+              <Image src="/img/WhatsApp-Image-2025-10-20-at-10.58.32-AM.jpeg" alt="صناعة ماكينات الرخام والجرانيت الثقيلة في مصر بإشراف احمد فكري" fill style={{ objectFit: 'cover' }} priority fetchPriority="high" sizes="(max-width: 768px) 100vw, 50vw" />
               <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top right, rgba(0,0,0,0.1), transparent)' }} />
             </div>
 

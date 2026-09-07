@@ -1,7 +1,15 @@
 import type { Metadata, Viewport } from 'next'
+import { Almarai } from 'next/font/google'
 import './globals.css'
 import Image from 'next/image'
 import Link from 'next/link'
+
+const almarai = Almarai({
+  subsets: ['arabic'],
+  weight: ['300', '400', '700', '800'],
+  display: 'swap',
+  variable: '--font-sans',
+})
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -31,8 +39,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="ar" dir="rtl">
-      <body>
+    <html lang="ar" dir="rtl" className={almarai.variable}>
+      <body style={{ backgroundColor: 'var(--bg-primary)', color: 'var(--text-primary)' }}>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
