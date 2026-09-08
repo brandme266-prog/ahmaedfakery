@@ -53,7 +53,6 @@ export default function RootLayout({
               "url": "https://ahfekry.com",
               "sameAs": [
                 "https://www.facebook.com/1ahmedfekry/",
-                "https://www.instagram.com/p/DLNjbixITRX/",
                 "https://www.tiktok.com/@eng.ahmed.fekry"
               ],
               "worksFor": {
