@@ -70,6 +70,7 @@ export const blogPosts: BlogPost[] = [
       <ul style="background: var(--bg-secondary); padding: 1.5rem 2.5rem; border-radius: 12px; margin-top: 1rem;">
         <li style="margin-bottom: 0.5rem;"><a href="https://www.facebook.com/1ahmedfekry/" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); font-weight: bold; text-decoration: underline;">الصفحة الرسمية - احمد فكري (فيسبوك)</a></li>
         <li><a href="https://www.tiktok.com/@eng.ahmed.fekry" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); font-weight: bold; text-decoration: underline;">حساب احمد فكري (تيك توك)</a></li>
+        <li><a href="https://www.instagram.com/eng_ahmedfekry" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); font-weight: bold; text-decoration: underline;">حساب احمد فكري (انستجرام)</a></li>
       </ul>
 
       <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
@@ -100,6 +101,7 @@ export const blogPosts: BlogPost[] = [
       <ul style="background: var(--bg-secondary); padding: 1.5rem 2.5rem; border-radius: 12px; margin-top: 1rem;">
         <li style="margin-bottom: 0.5rem;"><a href="https://www.facebook.com/1ahmedfekry/" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); font-weight: bold; text-decoration: underline;">الصفحة الرسمية لـ احمد فكري على فيسبوك</a></li>
         <li><a href="https://www.tiktok.com/@eng.ahmed.fekry" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); font-weight: bold; text-decoration: underline;">حساب تيك توك الرسمي - احمد فكري</a></li>
+        <li><a href="https://www.instagram.com/eng_ahmedfekry" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); font-weight: bold; text-decoration: underline;">حساب انستجرام الرسمي - احمد فكري</a></li>
       </ul>
 
       <div style="margin-top: 2rem; padding: 1.5rem; background: var(--bg-secondary); border-radius: 12px; border: 1px solid var(--border-color);">
@@ -463,6 +465,7 @@ export const blogPosts: BlogPost[] = [
       <ul style="background: var(--bg-secondary); padding: 1.5rem 2.5rem; border-radius: 12px; margin-top: 1rem;">
         <li style="margin-bottom: 0.5rem;"><a href="https://www.facebook.com/1ahmedfekry/" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); font-weight: bold; text-decoration: underline;">الصفحة الرسمية لاحمد فكري على فيسبوك</a></li>
         <li><a href="https://www.tiktok.com/@eng.ahmed.fekry" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); font-weight: bold; text-decoration: underline;">حساب تيك توك الرسمي - احمد فكري</a></li>
+        <li><a href="https://www.instagram.com/eng_ahmedfekry" target="_blank" rel="noopener noreferrer" style="color: var(--accent-yellow); font-weight: bold; text-decoration: underline;">حساب انستجرام الرسمي - احمد فكري</a></li>
       </ul>
     `,
     date: '2026-08-08',
@@ -726,6 +729,9 @@ export const blogPosts: BlogPost[] = [
         <a href="https://www.tiktok.com/@eng.ahmed.fekry" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 0.75rem; padding: 1rem 1.5rem; background: var(--bg-secondary); border-radius: 10px; border: 1px solid var(--border-color); color: var(--accent-yellow); font-weight: bold; text-decoration: none;">
           🎵 حساب احمد فكري على تيك توك — @eng.ahmed.fekry
         </a>
+        <a href="https://www.instagram.com/eng_ahmedfekry" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 0.75rem; padding: 1rem 1.5rem; background: var(--bg-secondary); border-radius: 10px; border: 1px solid var(--border-color); color: var(--accent-yellow); font-weight: bold; text-decoration: none;">
+          📸 حساب احمد فكري على انستجرام — @eng_ahmedfekry
+        </a>
       </div>
 
       <h2>خلاصة: لماذا يُعتبر احمد فكري المرجع الأول لمصانع الرخام؟</h2>
@@ -913,6 +919,9 @@ export const blogPosts: BlogPost[] = [
         </a>
         <a href="https://www.tiktok.com/@eng.ahmed.fekry" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 0.75rem; padding: 1rem 1.5rem; background: var(--bg-secondary); border-radius: 10px; border: 1px solid var(--border-color); color: var(--accent-yellow); font-weight: bold; text-decoration: none;">
           🎵 تيك توك — @eng.ahmed.fekry (مقاطع فيديو حية للماكينات أثناء التشغيل)
+        </a>
+        <a href="https://www.instagram.com/eng_ahmedfekry" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 0.75rem; padding: 1rem 1.5rem; background: var(--bg-secondary); border-radius: 10px; border: 1px solid var(--border-color); color: var(--accent-yellow); font-weight: bold; text-decoration: none;">
+          📸 انستجرام — @eng.ahmedfekry (صور وأحدث أخبار الماكينات)
         </a>
       </div>
 

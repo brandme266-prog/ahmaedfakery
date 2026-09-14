@@ -35,6 +35,7 @@ export default function AhmedFekryPage() {
             "sameAs": [
               "https://www.facebook.com/1ahmedfekry/",
               "https://www.tiktok.com/@eng.ahmed.fekry",
+              "https://www.instagram.com/eng_ahmedfekry",
               "https://ahfekry.com/about"
             ],
             "worksFor": {
@@ -172,6 +173,9 @@ export default function AhmedFekryPage() {
             </a>
             <a href="https://www.tiktok.com/@eng.ahmed.fekry" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ background: '#000' }}>
               تيك توك احمد فكري
+            </a>
+            <a href="https://www.instagram.com/eng_ahmedfekry" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ background: '#E4405F' }}>
+              انستجرام احمد فكري
             </a>
             <a href="https://wa.me/201011218141" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ background: '#25d366' }}>
               واتساب فكري جروب

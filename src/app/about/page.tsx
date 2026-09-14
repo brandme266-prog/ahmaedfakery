@@ -73,6 +73,9 @@ export default function AboutPage() {
                 <a href="https://www.tiktok.com/@eng.ahmed.fekry" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ background: '#000000' }}>
                   تيك توك الرسمي
                 </a>
+                <a href="https://www.instagram.com/eng_ahmedfekry" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ background: '#E4405F' }}>
+                  انستجرام
+                </a>
                 <a href="https://wa.me/201011218141" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ background: '#25d366' }}>
                   واتساب فكري جروب
                 </a>
