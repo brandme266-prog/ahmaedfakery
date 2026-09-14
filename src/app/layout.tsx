@@ -23,8 +23,22 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'المهندس احمد فكري (Ahmed Fekry) | رائد صناعة ماكينات الرخام والجرانيت',
     description: 'اكتشف أعمال وإنجازات المهندس احمد فكري (Ahmed Fekry)، الخبير الأول في تصنيع ماكينات الرخام والجرانيت في مصر. مؤسس فكري جروب.',
+    images: [
+      {
+        url: '/img/500310758_548201025008210_6078741677372742104_n.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'المهندس احمد فكري - Ahmed Fekry',
+      },
+    ],
     locale: 'ar_EG',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'المهندس احمد فكري (Ahmed Fekry) | رائد صناعة ماكينات الرخام والجرانيت',
+    description: 'اكتشف أعمال وإنجازات المهندس احمد فكري (Ahmed Fekry)، الخبير الأول في تصنيع ماكينات الرخام والجرانيت في مصر.',
+    images: ['/img/500310758_548201025008210_6078741677372742104_n.jpg'],
   },
   icons: {
     icon: '/img/ahmed-fekry-desk.jpeg',
