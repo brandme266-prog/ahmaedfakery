@@ -159,6 +159,31 @@ export default function AhmedFekryPage() {
           </div>
         </div>
 
+        {/* Gallery Section */}
+        <div style={{ marginBottom: '4rem' }}>
+          <h2 style={{ color: 'var(--accent-yellow)', fontSize: '2rem', marginBottom: '1.5rem', textAlign: 'center' }}>
+            صور المهندس احمد فكري
+          </h2>
+          <p style={{ color: 'var(--text-secondary)', textAlign: 'center', marginBottom: '2rem', fontSize: '1.1rem' }}>
+            مجموعة من الصور الشخصية والعملية للمهندس احمد فكري، رائد صناعة ماكينات الرخام والجرانيت
+          </p>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem' }}>
+            {[1, 2, 3, 4].map((num) => (
+              <div key={num} className="glass-panel" style={{ padding: '1rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                <div style={{ position: 'relative', width: '100%', aspectRatio: '1/1', borderRadius: '12px', overflow: 'hidden', border: '2px solid rgba(255,255,255,0.1)' }}>
+                  <Image
+                    src={`/img/ahmed-fekry-gallery/ahmed-fekry-${num}.jpeg`}
+                    alt={`المهندس احمد فكري - Ahmed Fekry - صورة ${num}`}
+                    fill
+                    style={{ objectFit: 'cover' }}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
         {/* Social & Contact */}
         <div className="glass-panel" style={{ padding: '2.5rem', textAlign: 'center', marginBottom: '3rem' }}>
           <h2 style={{ color: 'var(--accent-yellow)', marginBottom: '1rem' }}>
